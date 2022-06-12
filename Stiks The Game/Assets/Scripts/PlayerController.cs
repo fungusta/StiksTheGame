@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //Get direction keypress from user
         direction = Input.GetAxis("Horizontal");
         playerAnimator.SetFloat("Speed", Mathf.Abs(direction));
