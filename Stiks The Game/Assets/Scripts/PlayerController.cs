@@ -4,18 +4,31 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public CharacterController2D controller;
     public float speed = 5f;
     public float jumpForce = 3f;
     public float playerFeetRadius = 0.2f;
-    private float direction = 0f;
+    private float horizontalMove= 0f;
     private bool isGrounded = false;
+    bool crouch = false;
+    bool jump = false;
 
     public Transform playerFeet;
     public LayerMask groundLayer;
     private Rigidbody2D playerRb;
+    public BoxCollider2D Collider;
+
+    public SpriteRenderer SpriteRenderer;
+
+    public Sprite Standing;
+    public Sprite Crouching;
+    public Vector2 StandingSize;
+    public Vector2 CrouchingSize;
+
 
     public float hangTime = 0.2f;
     public float hangCounter;
+    
 
     // Start is called before the first frame update
     private Animator playerAnimator;
@@ -24,6 +37,10 @@ public class PlayerController : MonoBehaviour
         //Get reference to rigidbody component for left right movement and jumping
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+
+        SpriteRenderer.sprite = Standing;
+        StandingSize = Collider.size;
     }
 
     // Update is called once per frame
@@ -31,13 +48,13 @@ public class PlayerController : MonoBehaviour
     {
 
         //Get direction keypress from user
-        direction = Input.GetAxis("Horizontal");
-        playerAnimator.SetFloat("Speed", Mathf.Abs(direction));
+        horizontalMove = Input.GetAxisRaw("Horizontal");
+        playerAnimator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         //Move the player
-        if (direction != 0)
+        if (horizontalMove != 0)
         {
-            playerRb.velocity = new Vector2(direction * speed, playerRb.velocity.y);
+            playerRb.velocity = new Vector2(horizontalMove * speed, playerRb.velocity.y);
         }
         else
         {
@@ -45,11 +62,11 @@ public class PlayerController : MonoBehaviour
         }
 
         //Character to face correct direction
-        if (direction > 0) //moving right
+        if (horizontalMove > 0) //moving right
         {
             transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
         }
-        else if (direction < 0) //moving left
+        else if (horizontalMove < 0) //moving left
         {
             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
         }
@@ -78,5 +95,22 @@ public class PlayerController : MonoBehaviour
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, playerRb.velocity.y * .5f);
         }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            
+            SpriteRenderer.sprite = Crouching;
+            Collider.size = CrouchingSize;
+            crouch = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            
+            SpriteRenderer.sprite = Standing;
+            Collider.size = StandingSize;
+            crouch = false;
+        }
+        
     }
+    
+
 }
