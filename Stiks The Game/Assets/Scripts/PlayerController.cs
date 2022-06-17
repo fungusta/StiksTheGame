@@ -28,7 +28,15 @@ public class PlayerController : MonoBehaviour
 
     public float hangTime = 0.2f;
     public float hangCounter;
-    
+
+    public void OnLanding()
+    {
+        playerAnimator.SetBool("IsJumping", false);
+    }
+    public void OnCrouching(bool isCrouching)
+    {
+        playerAnimator.SetBool("IsCrouching", isCrouching);
+    }
 
     // Start is called before the first frame update
     private Animator playerAnimator;
@@ -95,20 +103,22 @@ public class PlayerController : MonoBehaviour
         {
             playerRb.velocity = new Vector2(playerRb.velocity.x, playerRb.velocity.y * .5f);
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetButtonDown("Crouch"))
         {
             
             SpriteRenderer.sprite = Crouching;
             Collider.size = CrouchingSize;
             crouch = true;
         }
-        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        else if (Input.GetButtonUp("Crouch"))
         {
             
             SpriteRenderer.sprite = Standing;
             Collider.size = StandingSize;
             crouch = false;
         }
+
+        
         
     }
     
