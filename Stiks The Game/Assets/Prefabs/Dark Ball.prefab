@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: -682551840080574688}
   - component: {fileID: 8722615844422990873}
   - component: {fileID: 9045454380115034216}
-  - component: {fileID: -6657488744883793461}
   m_Layer: 0
   m_Name: Dark Ball
   m_TagString: Untagged
@@ -29,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8929097145369507168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.09, y: 4.27, z: 0}
+  m_LocalPosition: {x: 4.15, y: 4.34, z: 0}
   m_LocalScale: {x: 0.43276587, y: 0.5145221, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -114,9 +113,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.012147241}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.51214725
+  m_Radius: 0.5
 --- !u!50 &9045454380115034216
 Rigidbody2D:
   serializedVersion: 4
@@ -137,17 +136,4 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 6
---- !u!114 &-6657488744883793461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8929097145369507168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68b75b13038384841819684de04671c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyTime: 1
+  m_Constraints: 0
