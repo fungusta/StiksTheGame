@@ -8,6 +8,8 @@ public class PlayerInteraction : MonoBehaviour
 {
     private int score = 0;
     public Text scoreText;
+    public GameObject[] sections;
+    private int currSection = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -29,6 +31,13 @@ public class PlayerInteraction : MonoBehaviour
             score = score + 100;
             scoreText.text = score.ToString();
             Destroy(collision.gameObject);
+        }
+
+        if (collision.tag == "NextSection")
+        {
+            sections[currSection].SetActive(true);
+            Destroy(collision.gameObject);
+            currSection++;
         }
     }
 }
