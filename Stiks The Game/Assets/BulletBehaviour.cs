@@ -5,6 +5,7 @@ using UnityEngine;
 public class BulletBehaviour : MonoBehaviour{
 
     public float speed;
+    private float direction = 0f;
 
     private Transform player;
     private Vector2 target;
@@ -14,12 +15,22 @@ public class BulletBehaviour : MonoBehaviour{
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         target = new Vector2(player.position.x, player.position.y);
+
+        //bullet to face correct direction
+        if (direction < 0) //moving right
+        {
+            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+        }
+        else if (direction < 0) //moving left
+        {
+            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+        }
     }
 
     
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        
 
         if(transform.position.x == target.x && transform.position.y == target.y)
         {
