@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 2595010541820632867}
   - component: {fileID: 2595010541820632864}
   - component: {fileID: 2595010541820632866}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Test Gunman
   m_TagString: Death
   m_Icon: {fileID: 0}
