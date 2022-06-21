@@ -1380,6 +1380,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.12
       objectReference: {fileID: 0}
+    - target: {fileID: 2595010541820632869, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
+      propertyPath: m_GravityScale
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4115425943079598318, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
       propertyPath: animator
       value: 

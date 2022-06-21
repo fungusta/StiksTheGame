@@ -7,6 +7,9 @@ public class EnemyHealth : MonoBehaviour
 
     public int maxHealth = 100;
     int currentHealth;
+
+    public bool Rigidbody2D { get; private set; }
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -31,7 +34,9 @@ public class EnemyHealth : MonoBehaviour
         animator.SetBool("IsDead", true);
         //disable
         GetComponent<Collider2D>().enabled = false;
+        Rigidbody2D = false;
         this.enabled = false;
+        GetComponent<ImprovedPatrol>().enabled = false;
     }
 
 }
