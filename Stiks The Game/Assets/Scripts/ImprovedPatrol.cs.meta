@@ -3,7 +3,13 @@ guid: 9880da133af27804dbed1216e121395e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - groundCheckPos: {instanceID: 0}
+  - bodyCollider: {instanceID: 0}
+  - player: {instanceID: 0}
+  - shootPos: {instanceID: 0}
+  - bullet: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -230,11 +230,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &431896059 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 765341397, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
-  m_PrefabInstance: {fileID: 772382327}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &594650799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,10 +1193,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1402358936}
-    - target: {fileID: 4115425943079598318, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 431896059}
     - target: {fileID: 4882486778011729441, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
       propertyPath: m_Name
       value: Test Gunman
@@ -1579,36 +1570,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5020855738064843324, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
   m_PrefabInstance: {fileID: 5020855739346878116}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1706903199 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5020855738064843317, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
-  m_PrefabInstance: {fileID: 5020855739346878116}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1706903204 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5020855738064843318, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
-  m_PrefabInstance: {fileID: 5020855739346878116}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1706903209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1706903199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8bb9298d84ebe948b13c5146f95de3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1706903204}
-  attackPoint: {fileID: 1882803921}
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 64
-  attackRange: 0.64
-  attackDamage: 20
-  attackRate: 2
 --- !u!1 &1809111024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,37 +1600,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1882803920
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1882803921}
-  m_Layer: 0
-  m_Name: AttackPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1882803921
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882803920}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.31, y: 0.14, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1402358936}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1886415344
 GameObject:
@@ -6113,29 +6043,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5020855738064843315, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
-      propertyPath: m_Size.x
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5020855738064843315, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
-      propertyPath: m_Size.y
-      value: 1.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5020855738064843315, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5020855738064843317, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5020855738064843320, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5020855738064843320, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 5020855738064843324, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
       propertyPath: m_RootOrder
