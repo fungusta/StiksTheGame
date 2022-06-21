@@ -24,6 +24,7 @@ public class ImprovedPatrol : MonoBehaviour
     {
         mustPatrol = true;
         canShoot = true;
+        
     }
 
     // Update is called once per frame
