@@ -37,6 +37,7 @@ public class EnemyHealth : MonoBehaviour
         Rigidbody2D = false;
         this.enabled = false;
         GetComponent<ImprovedPatrol>().enabled = false;
+        Destroy(gameObject);
     }
 
 }
