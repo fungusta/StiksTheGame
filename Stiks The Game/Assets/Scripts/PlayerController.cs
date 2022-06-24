@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(playerFeet.position, playerFeetRadius, groundLayer);
         playerAnimator.SetBool("Jumping", !isGrounded);
 
-        
+        /*
         if(isGrounded)
         {
             hangCounter = hangTime;
@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
         {
             hangCounter -= Time.deltaTime;
         }
-        
+        */
 
         //Handle player jumping, player jumps when jump key is pressed and its not midair
         if (Input.GetButtonDown("Jump") && isGrounded) //hangCounter > 0)
