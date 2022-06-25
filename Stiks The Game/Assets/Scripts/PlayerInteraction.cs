@@ -13,12 +13,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Player dies if player collides with a trigger collider with the Death tag
-        if (collision.tag == "Death")
-        {
-            //Restart the level
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+    
         //Player to proceed to next level if player collides with a trigger collider with the Finish tag
         if (collision.tag == "Finish")
         {

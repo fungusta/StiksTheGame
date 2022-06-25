@@ -10,6 +10,9 @@ public class BulletBehaviour : MonoBehaviour{
     private Transform player;
     private Vector2 target;
 
+    public GameObject impactEffect;
+    public int damage = 20;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -38,15 +41,23 @@ public class BulletBehaviour : MonoBehaviour{
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            DestroyProjectile();
-        }
-    }
+    
     void DestroyProjectile()
     {
         Destroy(gameObject);
     }
+    void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        PlayerHealth player = hitInfo.GetComponent<PlayerHealth>();
+        if (player != null)
+        {
+            player.TakeDamage(damage);
+            DestroyProjectile();
+        }
+
+        Instantiate(impactEffect, transform.position, transform.rotation);
+        Destroy(impactEffect);
+        Destroy(gameObject);
+    }
+    
 }

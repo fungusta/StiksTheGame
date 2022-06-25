@@ -6,13 +6,20 @@ public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public float attackRate = 4f;
+    float nextAttackTime = 0f;
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Time.time >= nextAttackTime)
         {
-            Shoot();
-        }              
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Shoot();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
+        }
+
     }
 
     void Shoot()

@@ -16,8 +16,11 @@ public class ImprovedPatrol : MonoBehaviour
     public Transform groundCheckPos;
     public LayerMask groundLayer;
     public Collider2D bodyCollider;
+
     public Transform player, shootPos;
     public GameObject bullet;
+
+    
 
 
     void Start()
@@ -88,4 +91,5 @@ public class ImprovedPatrol : MonoBehaviour
         newBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(shootSpeed * walkSpeed * Time.fixedDeltaTime, 0f);
         canShoot = true;
     }
+    
 }

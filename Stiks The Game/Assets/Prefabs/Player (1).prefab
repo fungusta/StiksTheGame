@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d1738893a707241bcf201c0d9dbda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 0}
@@ -394,6 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 8249608903138056683}
   bulletPrefab: {fileID: 8230398986425760547, guid: 47f61fe9f519595429161f2df2c7e164, type: 3}
+  attackRate: 4
 --- !u!1 &4022231407877298770
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4022231408140803775
 Transform:
   m_ObjectHideFlags: 0
