@@ -7,8 +7,10 @@ public class ImprovedPlayerController : MonoBehaviour
 
 	public CharacterController2D controller;
 	public Animator animator;
+	public WarriorAbility abilities;
 
-	public float runSpeed = 40f;
+	public float runSpeed;
+	public float firstSkillTime = 5f; 
 
 	float horizontalMove = 0f;
 	bool jump = false;
@@ -37,6 +39,12 @@ public class ImprovedPlayerController : MonoBehaviour
 			crouch = false;
 		}
 
+		//for first skill
+		if (Input.GetKeyDown(KeyCode.Z))
+        {
+			abilities.FirstSkillStart();
+		}
+
 	}
 
 	public void OnLanding()
@@ -55,4 +63,6 @@ public class ImprovedPlayerController : MonoBehaviour
 		controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
 		jump = false;
 	}
+
+
 }
