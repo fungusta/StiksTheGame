@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4447150477715925830}
   - component: {fileID: 4447150477715925831}
-  - component: {fileID: 4447150477715925828}
   - component: {fileID: 4447150477715925829}
   - component: {fileID: 4447150477715925826}
   - component: {fileID: 2529508416652477380}
+  - component: {fileID: 1981338341450132736}
   m_Layer: 0
   m_Name: gunman bullet-2.png
   m_TagString: Untagged
@@ -88,20 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4447150477715925828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4447150477715925827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 857118cdcd75be34297b664741c237fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 20
-  impactEffect: {fileID: 0}
 --- !u!114 &4447150477715925829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,3 +138,18 @@ CircleCollider2D:
   m_Offset: {x: -0.96578455, y: 0.5855755}
   serializedVersion: 2
   m_Radius: 0.5803279
+--- !u!114 &1981338341450132736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4447150477715925827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4666219eb385b6c41b9dad53eb854eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  impactEffect: {fileID: 0}
+  damage: 20

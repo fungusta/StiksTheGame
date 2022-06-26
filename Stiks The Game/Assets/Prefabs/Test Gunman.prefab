@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 100
-  range: 4
+  range: 5
   timeBTWShots: 1
   shootSpeed: 10
   mustPatrol: 0
@@ -270,8 +270,6 @@ MonoBehaviour:
   player: {fileID: 0}
   shootPos: {fileID: 2595010542302406121}
   bullet: {fileID: 4447150477715925827, guid: afa9fdb18778ef042ad58e2b50d10ed8, type: 3}
-  damage: 40
-  impactEffect: {fileID: 0}
 --- !u!114 &4115425943079598318
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,8 +20,8 @@ public class ImprovedPatrol : MonoBehaviour
     public Transform player, shootPos;
     public GameObject bullet;
 
-    
 
+    
 
     void Start()
     {
