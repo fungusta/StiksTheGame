@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3193815847099355136}
   - component: {fileID: 3193815847099355139}
   m_Layer: 0
-  m_Name: Finish (1)
+  m_Name: Finish
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
