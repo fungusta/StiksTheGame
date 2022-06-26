@@ -20,12 +20,10 @@ public class PlayerInteraction : MonoBehaviour
             //Load next level
             SceneManager.LoadScene("MainMenu");
         }
-        //If player collide with a trigger collider with the Coin tag, add 100 to score and destroy the coin
-        if (collision.tag == "Coin")
+        //If player collide with a trigger collider with the NextScene, load next scene
+        if (collision.tag == "NextScene")
         {
-            score = score + 100;
-            scoreText.text = score.ToString();
-            Destroy(collision.gameObject);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         if (collision.tag == "NextSection")
@@ -33,6 +31,11 @@ public class PlayerInteraction : MonoBehaviour
             sections[currSection].SetActive(true);
             Destroy(collision.gameObject);
             currSection++;
+        }
+
+        if (collision.tag == "Death")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
