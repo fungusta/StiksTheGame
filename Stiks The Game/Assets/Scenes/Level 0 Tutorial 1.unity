@@ -1015,7 +1015,7 @@ Transform:
   - {fileID: 769657903}
   - {fileID: 1886415345}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &436795073
 GameObject:
@@ -4678,7 +4678,7 @@ Transform:
   - {fileID: 1816583762}
   - {fileID: 1012974772}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1657427511
 PrefabInstance:
@@ -5931,9 +5931,37 @@ PrefabInstance:
       propertyPath: sections.Array.data[1]
       value: 
       objectReference: {fileID: 1484249719}
+    - target: {fileID: 5020855738064843320, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5591357
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020855738064843320, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_Size.y
+      value: 0.76272416
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020855738064843320, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.22468245
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020855738064843320, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.19363797
+      objectReference: {fileID: 0}
     - target: {fileID: 5020855738064843324, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020855738064843327, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_Radius
+      value: 0.29480052
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020855738064843327, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.21969235
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020855738064843327, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.28019977
       objectReference: {fileID: 0}
     - target: {fileID: 5044074161339144537, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
       propertyPath: m_AnchorMax.x
