@@ -20,12 +20,14 @@ public class EnemyHealth : MonoBehaviour
         currentHealth -= damage;
         //Play hurt animation
         animator.SetTrigger("Hurt");
-        Debug.Log("damage taken by enemy" + damage);
+        //Debug.Log("damage taken by enemy" + damage);
+        
         if (currentHealth <= 0)
         {
             Die();
         }
     }
+
     public void Die()
     {
         //Debug.Log("Enemy died!");

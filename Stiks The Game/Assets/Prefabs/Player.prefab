@@ -328,6 +328,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   maxHealth: 100
   currentHealth: 100
+  level: 3
   healthBar: {fileID: 5044074162511884937}
 --- !u!114 &5020855738064843319
 MonoBehaviour:

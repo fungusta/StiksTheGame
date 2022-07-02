@@ -44,11 +44,11 @@ public class ImprovedPlayerController : MonoBehaviour
 			abilities.FirstSkillStart();
 		}
 
+
 		if (Input.GetKeyDown(KeyCode.X))
         {
 			abilities.SecondSkill();
         }
-
 	}
 
 	public void OnLanding()

@@ -36,7 +36,7 @@ public class PlayerCombat : MonoBehaviour
 
         // Detect enemies in range
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        Debug.Log(hitEnemies.Length);
+        //Debug.Log(hitEnemies.Length);
 
         // Damage them
         foreach (Collider2D enemy in hitEnemies)
