@@ -7,10 +7,13 @@ public class WarriorAbility : MonoBehaviour
     public ImprovedPlayerController player;
     public float firstSkillDuration = 5f;
     public float firstSkillSpeedBoost = 20f;
+    public int firstSkillHealthRegen = 4;
+    public PlayerHealth health;
 
     public void FirstSkillStart()
     {
         player.runSpeed += firstSkillSpeedBoost;
+        health.Regen(firstSkillHealthRegen);
         StartCoroutine(Wait(firstSkillDuration));
     }
 

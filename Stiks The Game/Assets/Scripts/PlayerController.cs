@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour
     public float playerFeetRadius = 0.2f;
     private float horizontalMove= 0f;
     private bool isGrounded = false;
-    bool crouch = false;
-    bool jump = false;
+    private bool crouch = false;
+    private bool jump = false;
 
     public Transform playerFeet;
     public LayerMask groundLayer;
