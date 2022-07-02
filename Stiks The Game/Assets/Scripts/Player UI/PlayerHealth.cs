@@ -64,9 +64,6 @@ public class PlayerHealth : MonoBehaviour
 		transform.position = position;
 
 	}
-	void Die()
-
-
 	public void Regen(int health)
     {
 		if (currentHealth + health <= 100)
