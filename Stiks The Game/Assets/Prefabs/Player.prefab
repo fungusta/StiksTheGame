@@ -341,7 +341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93b4c891f0be452438015a7b30624b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
   sections:
   - {fileID: 0}
   - {fileID: 0}
@@ -511,6 +510,18 @@ MonoBehaviour:
   player: {fileID: 5020855738064843321}
   firstSkillDuration: 5
   firstSkillSpeedBoost: 20
+  firstSkillHealthRegen: 20
+  firstSkillCooldown: 10
+  firstActive: 0
+  canActivateFirst: 1
+  health: {fileID: 5020855738064843326}
+  animateFirstSkill: {fileID: 0}
+  playerPos: {fileID: 5020855738064843324}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  burnRange: 0
+  burnDamage: 0
 --- !u!1001 &3413272846676562382
 PrefabInstance:
   m_ObjectHideFlags: 0
