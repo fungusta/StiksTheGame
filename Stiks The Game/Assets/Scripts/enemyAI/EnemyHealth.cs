@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {   public Animator animator;
 
     public int maxHealth = 100;
-    int currentHealth;
+    public int currentHealth;
 
     public bool Rigidbody2D { get; private set; }
 
@@ -20,15 +20,17 @@ public class EnemyHealth : MonoBehaviour
         currentHealth -= damage;
         //Play hurt animation
         animator.SetTrigger("Hurt");
-
+        //Debug.Log("damage taken by enemy" + damage);
+        
         if (currentHealth <= 0)
         {
             Die();
         }
     }
-    void Die()
+
+    public void Die()
     {
-        Debug.Log("Enemy died!");
+        //Debug.Log("Enemy died!");
         //Die animation
         animator.SetBool("IsDead", true);
         //disable

@@ -10,7 +10,6 @@ public class ImprovedPlayerController : MonoBehaviour
 	public WarriorAbility abilities;
 
 	public float runSpeed;
-	public float firstSkillTime = 5f; 
 
 	float horizontalMove = 0f;
 	bool jump = false;
@@ -45,6 +44,11 @@ public class ImprovedPlayerController : MonoBehaviour
 			abilities.FirstSkillStart();
 		}
 
+
+		if (Input.GetKeyDown(KeyCode.X))
+        {
+			abilities.SecondSkill();
+        }
 	}
 
 	public void OnLanding()

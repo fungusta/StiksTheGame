@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    private int score = 0;
-    public Text scoreText;
     public GameObject[] sections;
     private int currSection = 0;
 
