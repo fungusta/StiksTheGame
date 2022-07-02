@@ -152,4 +152,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   impactEffect: {fileID: 0}
-  damage: 20
+  damage: 10
