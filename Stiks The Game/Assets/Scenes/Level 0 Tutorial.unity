@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 29347280}
   - component: {fileID: 29347283}
   m_Layer: 0
-  m_Name: Main Camera (1)
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -931,7 +931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8690000758117581518, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 64.44
+      value: 10.29
       objectReference: {fileID: 0}
     - target: {fileID: 8690000758117581518, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4538,6 +4538,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5020855738064843324, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
   m_PrefabInstance: {fileID: 2132615618916182803}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &933315170 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5020855738064843326, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+  m_PrefabInstance: {fileID: 2132615618916182803}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d1738893a707241bcf201c0d9dbda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1012974771
 GameObject:
   m_ObjectHideFlags: 0
@@ -5851,6 +5862,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1941776192545204769, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 933315170}
+    - target: {fileID: 1941776192545204769, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: playerPos
+      value: 
+      objectReference: {fileID: 933315161}
+    - target: {fileID: 1941776192545204769, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 933315161}
+    - target: {fileID: 1941776192545204769, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: enemyLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2132615619661834112, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
       propertyPath: sections.Array.size
       value: 2
