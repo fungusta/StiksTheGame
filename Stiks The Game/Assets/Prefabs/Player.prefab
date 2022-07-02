@@ -325,11 +325,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d1738893a707241bcf201c0d9dbda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
   maxHealth: 100
   currentHealth: 100
   level: 3
   healthBar: {fileID: 5044074162511884937}
+  damageReductionActive: 0
+  dmgReduction: 0
 --- !u!114 &5020855738064843319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,7 +434,6 @@ MonoBehaviour:
   animator: {fileID: 5020855738064843318}
   abilities: {fileID: 1941776192545204769}
   runSpeed: 40
-  firstSkillTime: 5
 --- !u!61 &5020855738064843320
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -509,20 +509,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5020855738064843321}
+  health: {fileID: 5020855738064843326}
   firstSkillDuration: 5
   firstSkillSpeedBoost: 20
   firstSkillHealthRegen: 20
   firstSkillCooldown: 10
   firstActive: 0
-  canActivateFirst: 1
-  health: {fileID: 5020855738064843326}
-  animateFirstSkill: {fileID: 0}
+  firstCooldown: 0
   playerPos: {fileID: 5020855738064843324}
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
   burnRange: 0
   burnDamage: 0
+  secondSkillDmgRed: 0
+  secondSkillDuration: 0
+  secondSkillCooldown: 0
+  secondActive: 0
+  secondCooldown: 0
+  reflectRange: 0
 --- !u!1001 &3413272846676562382
 PrefabInstance:
   m_ObjectHideFlags: 0
