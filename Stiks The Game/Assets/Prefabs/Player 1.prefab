@@ -192,11 +192,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d1738893a707241bcf201c0d9dbda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
   maxHealth: 100
   currentHealth: 100
   level: 3
   healthBar: {fileID: 0}
+  damageReductionActive: 0
+  dmgReduction: 0
 --- !u!114 &8427381883727400087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93b4c891f0be452438015a7b30624b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
   sections: []
 --- !u!95 &8427381883727400084
 Animator:
@@ -299,7 +299,6 @@ MonoBehaviour:
   animator: {fileID: 8427381883727400084}
   abilities: {fileID: 8427381883727400080}
   runSpeed: 40
-  firstSkillTime: 5
 --- !u!114 &8427381883727400083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,8 +316,8 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 2.56
-  attackDamage: 40
+  attackRange: 0.5
+  attackDamage: 20
   attackRate: 4
 --- !u!114 &8427381883727400080
 MonoBehaviour:
@@ -333,8 +332,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  health: {fileID: 0}
   firstSkillDuration: 5
   firstSkillSpeedBoost: 20
+  firstSkillHealthRegen: 0
+  firstSkillCooldown: 0
+  firstActive: 0
+  firstCooldown: 0
+  playerPos: {fileID: 0}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  burnRange: 0
+  burnDamage: 0
+  secondSkillDmgRed: 0
+  secondSkillDuration: 0
+  secondSkillCooldown: 0
+  secondActive: 0
+  secondCooldown: 0
+  reflectRange: 0
 --- !u!58 &8427381883727400081
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class SaveMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level 0 Tutorial 1");
+        SceneManager.LoadScene("Level 0 Tutorial");
     }
 
     public void Back()
