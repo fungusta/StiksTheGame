@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
 	//public Animator animator;
 	public int maxHealth = 100;
 	public int currentHealth;
-  public int level = 3; 
+	public int level = 3; 
   
 	public HealthBar healthBar;
 	public bool Rigidbody2D { get; private set; }
@@ -66,10 +66,11 @@ public class PlayerHealth : MonoBehaviour
 	}
 	public void Regen(int health)
     {
-		if (currentHealth + health <= 100)
+		if (currentHealth + health <= maxHealth)
 		{
 			currentHealth += health;
 			healthBar.SetHealth(currentHealth);
+			
 		}
 	}
 
@@ -92,4 +93,13 @@ public class PlayerHealth : MonoBehaviour
 		dmgReduction = 0f;
 		damageReductionActive = false;
     }
+
+	public void ChangeMaxHealth(int increase)
+    {
+		//Debug.Log("Max Health increased by" + increase);
+		maxHealth += increase;
+		healthBar.ChangeMaxHealth(maxHealth);
+		Regen(increase);
+	}
+
 }

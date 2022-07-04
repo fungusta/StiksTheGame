@@ -53,6 +53,11 @@ public class PlayerCombat : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 
+    public void ChangeAttackDamage(int i)
+    {
+        attackDamage += i;
+    }
+
 }
 
 

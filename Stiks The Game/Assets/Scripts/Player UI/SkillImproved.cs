@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class SkillImproved : MonoBehaviour
 {
+    public SkillTreeEffects effects;
     public SkillImproved[] parents;
     public GameObject[] connected;
 
@@ -23,6 +24,7 @@ public class SkillImproved : MonoBehaviour
             connected[i].SetActive(true);
         }
         GetComponent<Button>().interactable = false;
+        effects.Effect(this.name);
         clicked = true;
     }
 

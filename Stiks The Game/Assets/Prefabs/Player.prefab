@@ -892,6 +892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 4588533214450958557}
   connected:
@@ -1297,6 +1298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 3921702897859325695}
   connected:
@@ -1788,6 +1790,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6527275072404916661}
+  - component: {fileID: 4890002018932058783}
   m_Layer: 0
   m_Name: SkillTreeIcons
   m_TagString: Untagged
@@ -1823,6 +1826,22 @@ Transform:
   m_Father: {fileID: 1658539392612506271}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4890002018932058783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4571709918143433800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26621873ea3134e499dc7d1a7d6e7c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5020855738064843317}
+  health: {fileID: 0}
+  abilities: {fileID: 0}
+  combat: {fileID: 0}
 --- !u!1 &4576543982024737799
 GameObject:
   m_ObjectHideFlags: 0
@@ -2045,6 +2064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 6586133148424928501}
   - {fileID: 5154629888552591926}
@@ -2197,6 +2217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 168869981295713033}
   connected:
@@ -2451,6 +2472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 4588533214450958557}
   connected:
@@ -3074,6 +3096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 49571016328829994}
   connected:
@@ -3301,6 +3324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 4588533214450958557}
   connected:
@@ -3452,6 +3476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 2975531340424081999}
   connected:
@@ -3679,6 +3704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents: []
   connected:
   - {fileID: 1581883849535129895}
@@ -3831,6 +3857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 9046874445103497788}
   connected:
@@ -4351,6 +4378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 6331670826560629184}
   connected:
@@ -4502,6 +4530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 607308746698848840}
   connected:
@@ -4786,6 +4815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e3f122934df29a4ead1b06cf51b6fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  effects: {fileID: 4890002018932058783}
   parents:
   - {fileID: 6805530184182881240}
   connected:

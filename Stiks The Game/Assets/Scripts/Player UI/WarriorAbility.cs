@@ -130,6 +130,26 @@ public class WarriorAbility : MonoBehaviour
         }
     }
 
+    public void FirstSkillChangeRegen(int i)
+    {
+        firstSkillHealthRegen += i;
+    }
+
+    public void FirstSkillChangeDamage(int i)
+    {
+        burnDamage += i;
+    }
+
+    public void FirstSkillChangeDur(float f)
+    {
+        firstSkillDuration += f;
+    }
+
+    public void FirstSkillChangeCooldown(float f)
+    {
+        firstSkillCooldown -= f;
+    }
+
     //Second Skill: Shields Up
     public void SecondSkill()
     {
@@ -163,6 +183,26 @@ public class WarriorAbility : MonoBehaviour
         {
             enemy.GetComponent<EnemyHealth>().TakeDamage(reflectDmg);
         }
+    }
+
+    public void SecondSkillChangeDef(float i)
+    {
+        secondSkillDmgRed += i;
+    }
+
+    public void SecondSkillChangeRefRange(float i)
+    {
+        reflectRange += i;
+    }
+
+    public void SecondSkillChangeDur(float i)
+    {
+        secondSkillDuration += i;
+    }
+
+    public void SecondSkillChangeCooldown(float i)
+    {
+        secondSkillCooldown -= i;
     }
 }
 
