@@ -342,7 +342,7 @@ MonoBehaviour:
   playerPos: {fileID: 0}
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   burnRange: 0
   burnDamage: 0
   secondSkillDmgRed: 0
