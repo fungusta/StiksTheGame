@@ -1,0 +1,3456 @@
+fileFormatVersion: 2
+guid: 5e8632f04bbfa0747a41c0f6d8875d16
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warrior sprite sheet _0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 4931
+        width: 131
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd6a2919cafec742ad8da9d4f26f25f
+      internalID: 2068198360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 4931
+        width: 131
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed53cab63e700c49ae9457d5cd6f1c6
+      internalID: -975644799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _2
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 4931
+        width: 146
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4338c90f333b349bc26e6e90b3cb60
+      internalID: -1493464535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _3
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 4931
+        width: 146
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e5d97c1d613874ca31f36853a1c70a
+      internalID: 907470837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _4
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 4931
+        width: 131
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5c534c1d696b54b87e37274e652b6f
+      internalID: -1432374223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _5
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 4931
+        width: 131
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9feb5abdfa2751479142decbf2cbafa
+      internalID: -945110154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4877
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf9b6507ed75a04c9eedbb6f7403c72
+      internalID: 1773893208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4623
+        width: 291
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ede5f431c05a40adfc24ca54d24b5
+      internalID: -913274939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _8
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 4890
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8b8e36d53d2574aa80b7077c762ada
+      internalID: 1551711038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 4890
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e5b6a2ea62d8648aa2ab3a78416037
+      internalID: -1703034074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _10
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 4882
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb557f2cd069e5488dc26af510b1fe1
+      internalID: 1998433180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _11
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 4890
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f5645ed355e24d8d3f1959b73a15d
+      internalID: -1435540413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _12
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 4644
+        width: 286
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e08e097e5bf4d44ba758e466c65bcd
+      internalID: 2070200356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 4624
+        width: 248
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b305b964e74094faa1c9c2a1a08d27
+      internalID: -1610249289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _14
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 4854
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fae0e077ee07f4c80999320e0cb874
+      internalID: 1176945655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _15
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 4637
+        width: 337
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f56ffae5c19fa7449e8cbdd24bdd4ee
+      internalID: 707845293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _16
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 4624
+        width: 294
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfc0e7966bef6e46b3c9b959236c778
+      internalID: -1066631461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _17
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 4624
+        width: 339
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346b41d27204dab4da5dae1addce6d94
+      internalID: -1853697836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4798
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284c174217b9a654ca47fabf094bff6a
+      internalID: 1113534711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _19
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 4785
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaeaa045ecfaa64ba0eb0b1b0e6b22c
+      internalID: -1746000774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 4749
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddb7c028bb55c644969a806a7d0c8fd
+      internalID: 1324636427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4330
+        width: 265
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5720a1796a78dd459a7fd78b1ece3af
+      internalID: 1385612901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _22
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 4317
+        width: 161
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66351d89101822c47bd77a3490dc68ab
+      internalID: 654275149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _23
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 4317
+        width: 196
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c57c18ed6097947a11b7718e63c86a
+      internalID: 1961589753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _24
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 4317
+        width: 217
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbc53440ed4293459672c4368057eea
+      internalID: 136899765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _25
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 4317
+        width: 204
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3f22dd7f1d7284baef8c16ba013b0c
+      internalID: -397348133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _26
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 4317
+        width: 210
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cd126909dd6ca449d4efc1ac2abac6
+      internalID: 1846977213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _27
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 4008
+        width: 343
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85a130cc7114b94d8e2d18192a1594f
+      internalID: -1951637334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _28
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 4261
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61050f55248707a48a772170a0df5bc0
+      internalID: 1632664638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _29
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4266
+        width: 76
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34084b7978eaec442a934d4449f45c67
+      internalID: -896214578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _30
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 4273
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da48520049b2da4a858d48c8cf3bd0b
+      internalID: 841363298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _31
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 4273
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5e45f2b5e2ca44a9f0ee1e7dce2e7d
+      internalID: 1988741804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _32
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 3972
+        width: 487
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ed4634efc09ae4296b0bd987333546
+      internalID: -2003474806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _33
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 4008
+        width: 342
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4b5dd983da6a842a41972730d1b483
+      internalID: -1679191808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _34
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 4253
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd5f405c0f907a46a32be610a05b83c
+      internalID: 1155106949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _35
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 4261
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b827095d63cbefc4c95b0b3d8c0bd96a
+      internalID: 1086670189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 4008
+        width: 197
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bba58ba34104d44af9b82b4a5656e7
+      internalID: -1435562307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _37
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 4217
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f495bcd274e744e8a5eb07bbbe81af
+      internalID: 58740815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _38
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 4161
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfd357491295a94e90899282056b942
+      internalID: -1598531057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _39
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 4008
+        width: 286
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019c691e552ebc74c8362b8efde45637
+      internalID: -1183143626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _40
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 4008
+        width: 168
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cbb5c6b74753f4faa3e23f869ac9b7
+      internalID: 95506677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3701
+        width: 290
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643b6ed9d36afb24abb529bfe2961054
+      internalID: 332720103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _42
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3944
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e846ea8db4b74844b7fa78cd0f2f24d
+      internalID: 2078685068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _43
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 3895
+        width: 127
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ad3947b8553c4c8578161c757d0f8
+      internalID: -1988263371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _44
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 3903
+        width: 49
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbbb011f5ae2494684428c24336a391
+      internalID: -1780571575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _45
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 3987
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406cc6179c87adb48986f3c187fa2c6d
+      internalID: 1556809781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _46
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 3701
+        width: 278
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912838081fb6ba54db1b3660b5667946
+      internalID: -1424360802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _47
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 3701
+        width: 166
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788f56dd6e14d5f4ea17f1389f6cb304
+      internalID: -329055950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _48
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 3714
+        width: 222
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb14defb8300f994f9cbda5045b4eb76
+      internalID: 456381969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _49
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 3916
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fe40b1319256048b6a9280c9b29282
+      internalID: 437744106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _50
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 3910
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cb2b6c2bcc3a44cb403bfc6c6d95eb
+      internalID: -1529669931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _51
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 3854
+        width: 56
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb235f5234fcca24fa3763bd9ef9f644
+      internalID: -676945185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _52
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3889
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4df91b651f93540b39a6dfcf24c6c8
+      internalID: 1306214598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _53
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 3847
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6391968062cc843882dba166afef0d
+      internalID: 1348911650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _54
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 3867
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e6f1b4034abd942ac32f29a340a347
+      internalID: 1324445882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _55
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 3706
+        width: 222
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59b621d12abe474ab8708d2cf6dd118
+      internalID: 1483271409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _56
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 3729
+        width: 210
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b727924045bc7b544ad8e0574e92b817
+      internalID: -51730133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _57
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 3862
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a16942df672d94486737a76d32161d
+      internalID: 910990644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _58
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 3834
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7866b199103296243910f0e419bbcaac
+      internalID: 1272218652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _59
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 3762
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e82c397b6d4d94f84406739e537453
+      internalID: -1683398935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _60
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 3806
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5155dfb345a5b44bb55c2010f06bb6
+      internalID: -81346970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _61
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3391
+        width: 197
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09997741948310a4aad0e41635567b5d
+      internalID: -1130931600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _62
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 3524
+        width: 76
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f079dc427dc20b54aa1c5c25a1ffca89
+      internalID: 1938245196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _63
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3596
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b5a1d3427343e4d98fa0ec6c6ebcc0
+      internalID: 891512595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _64
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 3545
+        width: 125
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f505e6b724ed71a45b8fffb9f2a166f0
+      internalID: -678597401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _65
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3391
+        width: 286
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1581e4be47696a1468f474588964f2cc
+      internalID: -1810301777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _66
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 3512
+        width: 62
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8740ddfec4be9d449285dc3771f1d3c
+      internalID: -1289565326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _67
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 3596
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8ac439aaf75044d9be6c8371138a6a
+      internalID: 588530347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _68
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3568
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb39230a8f583b40931b15bf60fc598
+      internalID: 764448496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _69
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 3391
+        width: 286
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b89c4180e5d1c145a8ec46fbfe221d0
+      internalID: 1945982882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _70
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 3391
+        width: 238
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4b5647e92d18e459c7a62a976e5585
+      internalID: 1075450320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _71
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 3391
+        width: 301
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015af0bd53b13114da0ea142933c08f5
+      internalID: 42840357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _72
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 3391
+        width: 286
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e27e0869254ad64c8f912fccc96c447
+      internalID: -1972217512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _73
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3085
+        width: 286
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4d1c0fc5cafd84e94ab10a7a517215
+      internalID: -58368564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _74
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 3085
+        width: 138
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a006c5c0b41f5c408133e8c854bef69
+      internalID: -404374437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _75
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 3085
+        width: 154
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a638bd40e6f4d847aeb629b8b701791
+      internalID: -394742245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _76
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 3085
+        width: 147
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0878f86ed8eae94dba7c5a1f06b2d95
+      internalID: 1572327727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _77
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 3085
+        width: 153
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc26846c614a476468cc22d53e90e4f1
+      internalID: 1347450898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _78
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 3097
+        width: 148
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c65a5064158276489cf5c84007f0cb8
+      internalID: -989882621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _79
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2791
+        width: 148
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b6f269a42ecbe40a3ad3695bf05047
+      internalID: -1397466362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _80
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2791
+        width: 148
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c547b0af23d2d4b9afce9b3cedb8df
+      internalID: -185676998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _81
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 2796
+        width: 148
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da460732da41fc44f86f2ce15d10829c
+      internalID: 1213202698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _82
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2796
+        width: 154
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a645c8e8a0414e488818ef6e0dd42c1
+      internalID: -188485138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _83
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 2775
+        width: 154
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84621968f0309f34f80f940071fbc70f
+      internalID: -1452722957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _84
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 2775
+        width: 154
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b958b16f9529764b9cc0efdbf3ab3d1
+      internalID: 1995095848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _85
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2468
+        width: 154
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ffe5bea9947674eb1ebea57f4be702
+      internalID: 1225385719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _86
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2525
+        width: 138
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4d8c4d96dd4bf478a6a7c568f9d38d
+      internalID: 1817899983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _87
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2474
+        width: 118
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006c0a6728be5f140b8fde65d7d56575
+      internalID: 746485343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _88
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2474
+        width: 111
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05581930b1479cd46a203648e53f755e
+      internalID: 1661798731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _89
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2474
+        width: 118
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1481238d3f2db0c4c8d3aca71462017d
+      internalID: 1469173987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _90
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 2474
+        width: 105
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b33980493858f347ae3292fa57dbb9e
+      internalID: 1963548885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _91
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2167
+        width: 105
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c54133a90e89ab47af5492e29555dee
+      internalID: 1516807312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _92
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2167
+        width: 105
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df56325777e8514e8b8884dbe13c1d7
+      internalID: -1538558319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _93
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2167
+        width: 118
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a34d735ca9ed845a53a290f0716df9
+      internalID: -130073145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _94
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 2167
+        width: 118
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b398547d31cb07b4c89ec1da9671fe9f
+      internalID: 1436852569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _95
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 2167
+        width: 111
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c45314af12482e408991db25e222acb
+      internalID: 1405908523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _96
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 2167
+        width: 105
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1592e502a13cd1c448aba29069654a50
+      internalID: -1008940219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _97
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1859
+        width: 117
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73dcbb3492ed054e81a00ae20dd1a23
+      internalID: -1386423198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _98
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1859
+        width: 117
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fb3469933e16446a92bc3b28ec542d
+      internalID: 1774193543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _99
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1859
+        width: 117
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0743c88094f681c498aa1cc99e40d0f9
+      internalID: -394911659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _100
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1824
+        width: 146
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d2efd6d1c7fde47926731c0c46b620
+      internalID: 694142528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _101
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 1852
+        width: 153
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99a0e7dbea78714f90281e60e621964
+      internalID: -437183813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _102
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 1852
+        width: 153
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721fa9c1a0caadf4ab7108ab0aad320c
+      internalID: -1830803717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _103
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1796
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1974f3adecf66ea49b54534d8c65e552
+      internalID: -129137218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _104
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 1809
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cb8da7f53b05b4dbfd6caeee4690c0
+      internalID: 2116142320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _105
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1543
+        width: 153
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0936c4b841daa46a706a9599000f84
+      internalID: 1172046135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _106
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1543
+        width: 153
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef651ee43fcdd7b4a9e3c01e8b31af0d
+      internalID: 1074310583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _107
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1543
+        width: 146
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af0a3735d069eb4fab0bc355969865d
+      internalID: -341082613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _108
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1558
+        width: 197
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b33208cfd073e4f9913654841ca3c4
+      internalID: -812210676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _109
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1538
+        width: 195
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc848bc69535d04093c0b8175c49450
+      internalID: 700679733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _110
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 1543
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e15ddf42a77a48b973969813d136b
+      internalID: -1221878851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _111
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1523
+        width: 196
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73d4c063b578bd4fa1f666a5e7ef785
+      internalID: -1153671866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _112
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1216
+        width: 209
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ed51635cf28a4468aa318a5a90ea4d
+      internalID: -49535218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _113
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1382
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a045949c428002d41aff48a6f6ed7dfe
+      internalID: 421775980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _114
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1236
+        width: 166
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a54849dee831c44aa8c66f13e38bab2
+      internalID: 347378930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _115
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1236
+        width: 158
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53dc916eb1460447b8e36d5b853075a
+      internalID: 1773987801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _116
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1236
+        width: 153
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39eafd22e8d92b458f54555f2a50b5e
+      internalID: 1454564094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _117
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1236
+        width: 166
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e27ac9c61fdd7f4585b8830a667606a
+      internalID: 305988496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _118
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 1236
+        width: 194
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c66c629f866f5843b25664bb7a946b4
+      internalID: -1048275526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _119
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1236
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfba391d744213447806556c658b2474
+      internalID: 1404746459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _120
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1236
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f68fe8755f6240a4e96297237cd3d
+      internalID: 1904703392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _121
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1244
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2f9d598b9392b4691474c372eca96d
+      internalID: 29873147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _122
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1244
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4f1de001a48ec418fb8d0385a8b306
+      internalID: 1355064611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _123
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1249
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f527f786cfbf0d441a2ffcf050776631
+      internalID: -48916257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _124
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1236
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81211a1c37c8d3f429b44a40adc2eff4
+      internalID: -215168413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _125
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 1236
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2eebaacddf7574ca56133f9561c1d8
+      internalID: -1344547198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _126
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 934
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743ce166512f5e74eb3dd9f3d66495a9
+      internalID: 58897669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _127
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 927
+        width: 210
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80bc1b2b6204e142aa9d2ecbcf59f26
+      internalID: 548746357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _128
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 927
+        width: 414
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16aa4e761ca2594897e1026ee12ddbc
+      internalID: 834382315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _129
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 927
+        width: 386
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68cf0fd65e513148a2936d3cedf3fed
+      internalID: -1874325522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _130
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 927
+        width: 306
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128c07c2e78ef9045b7382c30bbfbdcc
+      internalID: 317937834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _131
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 927
+        width: 306
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52675a65d3b5df94992e184be5fe604d
+      internalID: -677972625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _132
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 927
+        width: 301
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52a30d12d19eb845b6de7feaebd960d
+      internalID: 1904088797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _133
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 620
+        width: 117
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84406f22630f80c4f86a6f32c16b2233
+      internalID: -1747066775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _134
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 620
+        width: 145
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aabc43057261d1408072c9ba5307304
+      internalID: 1240715842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _135
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 620
+        width: 222
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385332a9b399eeb40bb31bce50b36d9a
+      internalID: 1875401513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _136
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 620
+        width: 250
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8379845803ad4aa4fa4b8a73338ce73e
+      internalID: 1453121928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _137
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 620
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bf799f778da744c80813222c8ca5df
+      internalID: 1705535772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _138
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 620
+        width: 214
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d145d04cdde343bb825d8eed733a7
+      internalID: 948041680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _139
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 628
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0a040570e640b4f80e15769f7a759c
+      internalID: -1323603077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _140
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 633
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5c87ba6fcec194d8d60acb4bb8084f
+      internalID: -1938369729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _141
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 620
+        width: 173
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5c0f0819fefad4b92041f44639df64
+      internalID: -211684017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _142
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 311
+        width: 174
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9856bd4a59875b448029c13e2583f19
+      internalID: -1805059255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 354
+        width: 133
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192c82cf7ff678049baa02490d1e90b5
+      internalID: -1087231601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _144
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 334
+        width: 133
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33264718a4fc2804e9600c9309083c36
+      internalID: -297469333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _145
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 326
+        width: 132
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79df2eda1119b5b40bdd4650f7c817e4
+      internalID: -283434971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _146
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 339
+        width: 140
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3175dfd4e22d80f4496c2ef20cac259d
+      internalID: -126437347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _147
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 354
+        width: 133
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f358ce8c2fb89354aad3cd8d301a79b5
+      internalID: -639290696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 133
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ada1335f22edb4292dc16bc5a5a253
+      internalID: -368449338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _149
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 17
+        width: 133
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d3ff2365909e5408a55dc4a4b8780d
+      internalID: -1755410420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior sprite sheet _150
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 32
+        width: 133
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec33522a88324348a11a541949d1234
+      internalID: -1382147522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      warrior sprite sheet _93: -130073145
+      warrior sprite sheet _1: -975644799
+      warrior sprite sheet _120: 1904703392
+      warrior sprite sheet _124: -215168413
+      warrior sprite sheet _19: -1746000774
+      warrior sprite sheet _3: 907470837
+      warrior sprite sheet _107: -341082613
+      warrior sprite sheet _140: -1938369729
+      warrior sprite sheet _66: -1289565326
+      warrior sprite sheet _76: 1572327727
+      warrior sprite sheet _55: 1483271409
+      warrior sprite sheet _116: 1454564094
+      warrior sprite sheet _26: 1846977213
+      warrior sprite sheet _90: 1963548885
+      warrior sprite sheet _91: 1516807312
+      warrior sprite sheet _77: 1347450898
+      warrior sprite sheet _127: 548746357
+      warrior sprite sheet _56: -51730133
+      warrior sprite sheet _148: -368449338
+      warrior sprite sheet _144: -297469333
+      warrior sprite sheet _10: 1998433180
+      warrior sprite sheet _5: -945110154
+      warrior sprite sheet _35: 1086670189
+      warrior sprite sheet _41: 332720103
+      warrior sprite sheet _43: -1988263371
+      warrior sprite sheet _106: 1074310583
+      warrior sprite sheet _22: 654275149
+      warrior sprite sheet _42: 2078685068
+      warrior sprite sheet _37: 58740815
+      warrior sprite sheet _7: -913274939
+      warrior sprite sheet _117: 305988496
+      warrior sprite sheet _138: 948041680
+      warrior sprite sheet _150: -1382147522
+      warrior sprite sheet _149: -1755410420
+      warrior sprite sheet _15: 707845293
+      warrior sprite sheet _51: -676945185
+      warrior sprite sheet _24: 136899765
+      warrior sprite sheet _129: -1874325522
+      warrior sprite sheet _113: 421775980
+      warrior sprite sheet _62: 1938245196
+      warrior sprite sheet _16: -1066631461
+      warrior sprite sheet _88: 1661798731
+      warrior sprite sheet _36: -1435562307
+      warrior sprite sheet _53: 1348911650
+      warrior sprite sheet _80: -185676998
+      warrior sprite sheet _86: 1817899983
+      warrior sprite sheet _108: -812210676
+      warrior sprite sheet _110: -1221878851
+      warrior sprite sheet _121: 29873147
+      warrior sprite sheet _98: 1774193543
+      warrior sprite sheet _71: 42840357
+      warrior sprite sheet _23: 1961589753
+      warrior sprite sheet _81: 1213202698
+      warrior sprite sheet _21: 1385612901
+      warrior sprite sheet _0: 2068198360
+      warrior sprite sheet _11: -1435540413
+      warrior sprite sheet _34: 1155106949
+      warrior sprite sheet _52: 1306214598
+      warrior sprite sheet _28: 1632664638
+      warrior sprite sheet _131: -677972625
+      warrior sprite sheet _72: -1972217512
+      warrior sprite sheet _94: 1436852569
+      warrior sprite sheet _61: -1130931600
+      warrior sprite sheet _126: 58897669
+      warrior sprite sheet _125: -1344547198
+      warrior sprite sheet _132: 1904088797
+      warrior sprite sheet _49: 437744106
+      warrior sprite sheet _79: -1397466362
+      warrior sprite sheet _139: -1323603077
+      warrior sprite sheet _96: -1008940219
+      warrior sprite sheet _141: -211684017
+      warrior sprite sheet _47: -329055950
+      warrior sprite sheet _6: 1773893208
+      warrior sprite sheet _64: -678597401
+      warrior sprite sheet _82: -188485138
+      warrior sprite sheet _145: -283434971
+      warrior sprite sheet _134: 1240715842
+      warrior sprite sheet _109: 700679733
+      warrior sprite sheet _30: 841363298
+      warrior sprite sheet _101: -437183813
+      warrior sprite sheet _8: 1551711038
+      warrior sprite sheet _83: -1452722957
+      warrior sprite sheet _87: 746485343
+      warrior sprite sheet _27: -1951637334
+      warrior sprite sheet _40: 95506677
+      warrior sprite sheet _92: -1538558319
+      warrior sprite sheet _70: 1075450320
+      warrior sprite sheet _84: 1995095848
+      warrior sprite sheet _13: -1610249289
+      warrior sprite sheet _68: 764448496
+      warrior sprite sheet _147: -639290696
+      warrior sprite sheet _14: 1176945655
+      warrior sprite sheet _33: -1679191808
+      warrior sprite sheet _48: 456381969
+      warrior sprite sheet _50: -1529669931
+      warrior sprite sheet _45: 1556809781
+      warrior sprite sheet _137: 1705535772
+      warrior sprite sheet _39: -1183143626
+      warrior sprite sheet _111: -1153671866
+      warrior sprite sheet _65: -1810301777
+      warrior sprite sheet _74: -404374437
+      warrior sprite sheet _118: -1048275526
+      warrior sprite sheet _58: 1272218652
+      warrior sprite sheet _44: -1780571575
+      warrior sprite sheet _143: -1087231601
+      warrior sprite sheet _4: -1432374223
+      warrior sprite sheet _112: -49535218
+      warrior sprite sheet _119: 1404746459
+      warrior sprite sheet _85: 1225385719
+      warrior sprite sheet _102: -1830803717
+      warrior sprite sheet _67: 588530347
+      warrior sprite sheet _122: 1355064611
+      warrior sprite sheet _103: -129137218
+      warrior sprite sheet _12: 2070200356
+      warrior sprite sheet _115: 1773987801
+      warrior sprite sheet _9: -1703034074
+      warrior sprite sheet _100: 694142528
+      warrior sprite sheet _142: -1805059255
+      warrior sprite sheet _95: 1405908523
+      warrior sprite sheet _97: -1386423198
+      warrior sprite sheet _20: 1324636427
+      warrior sprite sheet _78: -989882621
+      warrior sprite sheet _57: 910990644
+      warrior sprite sheet _146: -126437347
+      warrior sprite sheet _99: -394911659
+      warrior sprite sheet _123: -48916257
+      warrior sprite sheet _17: -1853697836
+      warrior sprite sheet _31: 1988741804
+      warrior sprite sheet _38: -1598531057
+      warrior sprite sheet _104: 2116142320
+      warrior sprite sheet _128: 834382315
+      warrior sprite sheet _135: 1875401513
+      warrior sprite sheet _60: -81346970
+      warrior sprite sheet _32: -2003474806
+      warrior sprite sheet _105: 1172046135
+      warrior sprite sheet _133: -1747066775
+      warrior sprite sheet _69: 1945982882
+      warrior sprite sheet _25: -397348133
+      warrior sprite sheet _18: 1113534711
+      warrior sprite sheet _29: -896214578
+      warrior sprite sheet _46: -1424360802
+      warrior sprite sheet _54: 1324445882
+      warrior sprite sheet _63: 891512595
+      warrior sprite sheet _136: 1453121928
+      warrior sprite sheet _75: -394742245
+      warrior sprite sheet _114: 347378930
+      warrior sprite sheet _73: -58368564
+      warrior sprite sheet _130: 317937834
+      warrior sprite sheet _2: -1493464535
+      warrior sprite sheet _59: -1683398935
+      warrior sprite sheet _89: 1469173987
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

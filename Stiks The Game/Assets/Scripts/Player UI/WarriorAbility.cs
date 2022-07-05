@@ -45,6 +45,8 @@ public class WarriorAbility : MonoBehaviour
     public bool secondCooldown;
     public float reflectRange;
 
+    public Animator animator;
+
 
     private void Start()
     {
@@ -111,6 +113,8 @@ public class WarriorAbility : MonoBehaviour
         //First Skill Over
         player.runSpeed -= firstSkillSpeedBoost;
         firstActive = false;
+        animator.SetBool("Skill_1", false);
+
 
         //after the skill ends, the cooldown will start
         yield return new WaitForSeconds(firstSkillCd);
