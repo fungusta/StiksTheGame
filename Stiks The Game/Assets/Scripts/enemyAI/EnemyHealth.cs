@@ -7,12 +7,15 @@ public class EnemyHealth : MonoBehaviour
 
     public int maxHealth = 100;
     public int currentHealth;
+    public int expGiven;
+    public LevelSystem playerLevel;
 
     public bool Rigidbody2D { get; private set; }
 
     void Start()
     {
         currentHealth = maxHealth;
+        expGiven = 5;
     }
 
     public void TakeDamage(int damage)
@@ -38,6 +41,8 @@ public class EnemyHealth : MonoBehaviour
         Rigidbody2D = false;
         this.enabled = false;
         GetComponent<ImprovedPatrol>().enabled = false;
+        playerLevel.GainExp(expGiven);
+        Debug.Log("Exp given" + expGiven);
         Destroy(gameObject);
     }
 

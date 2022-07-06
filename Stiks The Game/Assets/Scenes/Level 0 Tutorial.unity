@@ -913,6 +913,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 715780463}
+    - target: {fileID: 4115425943079598318, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
+      propertyPath: playerLevel
+      value: 
+      objectReference: {fileID: 1858899993}
     - target: {fileID: 4882486778011729441, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
       propertyPath: m_Name
       value: Test Gunman
@@ -5025,6 +5029,17 @@ Transform:
   m_Father: {fileID: 1484249720}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1858899993 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 713690990399368953, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+  m_PrefabInstance: {fileID: 2132615618916182803}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06cf0fe5f23a6b44bdd06f017b655f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1886415344
 GameObject:
   m_ObjectHideFlags: 0
@@ -6279,6 +6294,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2132615619661834123, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2360520635940108540, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2360520635940108540, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5020855737563089284, guid: 8f19f0939d0a94f428badca2f3547b13, type: 3}
