@@ -435,7 +435,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 621173037}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80a1b08fd0f3a243ac5ad91e297bd61, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a95d221f36b0af4b9ce86656d799de7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoints:
@@ -456,9 +456,9 @@ MonoBehaviour:
   enemies:
   - {fileID: 299291388}
   minTimeBtwSpawns: 1
-  maxTimeBtwSpawns: 3
+  maxTimeBtwSpawns: 5
   canSpawn: 1
-  spawnTime: 20
+  spawnTime: 10
   enemiesInRoom: 0
   spawnerDone: 0
   spawnerDoneGameObject: {fileID: 0}

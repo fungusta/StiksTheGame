@@ -7,6 +7,7 @@ public class PauseUI : MonoBehaviour
 {
     public GameObject pauseScreen;
     public GameObject pauseButton;
+    public GameObject skillTreeUI;
 
     public void OnClickPause()
     {
@@ -25,7 +26,14 @@ public class PauseUI : MonoBehaviour
 
     public void OnClickSkillTree()
     {
-        //TBD how to implement
+        skillTreeUI.SetActive(true);
+        pauseScreen.SetActive(false);
+    }
+
+    public void OnClickExitSkillTree()
+    {
+        skillTreeUI.SetActive(false);
+        pauseScreen.SetActive(true);
     }
 
     public void OnClickVolume()
