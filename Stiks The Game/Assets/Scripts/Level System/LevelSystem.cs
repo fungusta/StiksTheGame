@@ -11,6 +11,7 @@ public class LevelSystem : MonoBehaviour
     public EXPBar expBar;
     public ChangeLevel levelChange;
     public SkillTreeEffects skillTree;
+    public AudioSource levelUpSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,11 +37,23 @@ public class LevelSystem : MonoBehaviour
     public void LevelUp()
     {
         //Debug.Log("Level Up");
+        skillTree.IncreaseSkillPt(level);
         level += 1;
         maxExp *= 2;
         expBar.SetMaxExp(maxExp);
         levelChange.LevelChange(level);
         expBar.SetExp(currentExp);
-        skillTree.IncreaseSkillPt(level);
+        levelUpSound.Play();
+    }
+
+    public int GetCurrentSkillPts()
+    {
+        int currentLevel = level;
+        int temp = 1;
+        for(int i = 0; i < currentLevel; i++)
+        {
+            temp += i;
+        }
+        return temp;
     }
 }
