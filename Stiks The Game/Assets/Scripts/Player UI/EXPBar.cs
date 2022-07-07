@@ -18,13 +18,13 @@ public class EXPBar : MonoBehaviour
     {
         slider.maxValue = exp;
 
-        //fill.color = gradient.Evaluate(0f);
+        fill.color = gradient.Evaluate(0f);
     }
 
     public void SetExp(int exp)
     {
         slider.value = exp;
 
-        //fill.color = gradient.Evaluate(slider.normalizedValue);
+        fill.color = gradient.Evaluate(slider.normalizedValue);
     }
 }

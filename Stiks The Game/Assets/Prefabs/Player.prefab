@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 10
-  m_WholeNumbers: 1
+  m_WholeNumbers: 0
   m_Value: 10
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3385,6 +3385,7 @@ MonoBehaviour:
   secondActive: 0
   secondCooldown: 0
   reflectRange: 0
+  animator: {fileID: 0}
 --- !u!114 &713690990399368953
 MonoBehaviour:
   m_ObjectHideFlags: 0

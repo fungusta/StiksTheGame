@@ -18,13 +18,16 @@ public class LevelSystem : MonoBehaviour
         level = 1;
     }
 
+    private void Update()
+    {
+        //Debug.Log(currentExp);
+    }
     public void GainExp(int exp)
     {
         if(maxExp <= (currentExp + exp))
         {
-            LevelUp();
             currentExp = (currentExp + exp) - maxExp;
-            expBar.SetExp(currentExp);
+            LevelUp();
         } else
         {
             Debug.Log("Exp taken in");
@@ -35,9 +38,11 @@ public class LevelSystem : MonoBehaviour
 
     public void LevelUp()
     {
+        Debug.Log("Level Up");
         level += 1;
         maxExp *= 2;
         expBar.SetMaxExp(maxExp);
         levelChange.LevelChange(level);
+        expBar.SetExp(currentExp);
     }
 }
