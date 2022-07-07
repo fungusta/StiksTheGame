@@ -41,9 +41,10 @@ public class EnemyHealth : MonoBehaviour
         Rigidbody2D = false;
         this.enabled = false;
         GetComponent<ImprovedPatrol>().enabled = false;
-        playerLevel.GainExp(expGiven);
-        Debug.Log("Exp given" + expGiven);
+        
+        //Debug.Log("Exp given" + expGiven);
         Destroy(gameObject);
+        playerLevel.GainExp(expGiven);
     }
 
 }

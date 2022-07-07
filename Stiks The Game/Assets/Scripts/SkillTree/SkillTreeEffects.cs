@@ -8,12 +8,15 @@ public class SkillTreeEffects : MonoBehaviour
     private PlayerHealth health;
     private WarriorAbility abilities;
     private PlayerCombat combat;
+    public WarningSkillTree warning;
+    public int skillTreePts;
 
     private void Start()
     {
         health = player.GetComponent<PlayerHealth>();
         abilities = player.GetComponent<WarriorAbility>();
         combat = player.GetComponent<PlayerCombat>();
+        skillTreePts = player.GetComponent<LevelSystem>().level;
     }
 
 
@@ -71,5 +74,21 @@ public class SkillTreeEffects : MonoBehaviour
         {
             abilities.SecondSkillChangeCooldown(2f);
         }
+    }
+
+    public bool PointCheck()
+    {
+        if(skillTreePts > 0)
+        {
+            skillTreePts -= 1;
+            return true;
+        }
+        warning.ShowWarning();
+        return false;
+    }
+
+    public void IncreaseSkillPt(int skillPt)
+    {
+        skillTreePts += skillPt;
     }
 }
