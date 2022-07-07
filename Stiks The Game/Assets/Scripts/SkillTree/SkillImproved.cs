@@ -5,13 +5,17 @@ using UnityEngine.UI;
 
 public class SkillImproved : MonoBehaviour
 {
-    public SkillTreeEffects effects;
+    public SkillTreeEffects skillTree;
     public SkillImproved[] parents;
     public GameObject[] connected;
 
     public bool clicked;
-    public void onClickButton()
+    public void OnClickButton()
     {
+        if(!skillTree.PointCheck())
+        {
+            return;
+        }
         for (int i = 0; i < parents.Length; i++)
         {
             if (!parents[i].clicked)
@@ -24,7 +28,7 @@ public class SkillImproved : MonoBehaviour
             connected[i].SetActive(true);
         }
         GetComponent<Button>().interactable = false;
-        effects.Effect(this.name);
+        skillTree.Effect(this.name);
         clicked = true;
     }
 

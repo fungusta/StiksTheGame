@@ -10,6 +10,7 @@ public class LevelSystem : MonoBehaviour
 
     public EXPBar expBar;
     public ChangeLevel levelChange;
+    public SkillTreeEffects skillTree;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +19,6 @@ public class LevelSystem : MonoBehaviour
         level = 1;
     }
 
-    private void Update()
-    {
-        //Debug.Log(currentExp);
-    }
     public void GainExp(int exp)
     {
         if(maxExp <= (currentExp + exp))
@@ -30,7 +27,7 @@ public class LevelSystem : MonoBehaviour
             LevelUp();
         } else
         {
-            Debug.Log("Exp taken in");
+            //Debug.Log("Exp taken in");
             currentExp += exp;
             expBar.SetExp(currentExp);
         }
@@ -38,11 +35,12 @@ public class LevelSystem : MonoBehaviour
 
     public void LevelUp()
     {
-        Debug.Log("Level Up");
+        //Debug.Log("Level Up");
         level += 1;
         maxExp *= 2;
         expBar.SetMaxExp(maxExp);
         levelChange.LevelChange(level);
         expBar.SetExp(currentExp);
+        skillTree.IncreaseSkillPt(level);
     }
 }
