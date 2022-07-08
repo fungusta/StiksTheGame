@@ -16,7 +16,7 @@ public class SkillTreeEffects : MonoBehaviour
         health = player.GetComponent<PlayerHealth>();
         abilities = player.GetComponent<WarriorAbility>();
         combat = player.GetComponent<PlayerCombat>();
-        skillTreePts = player.GetComponent<LevelSystem>().level;
+        skillTreePts = player.GetComponent<LevelSystem>().GetCurrentSkillPts();
     }
 
 

@@ -42,7 +42,6 @@ public class ImprovedPlayerController : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.Z))
         {
 			abilities.FirstSkillStart();
-			animator.SetBool("Skill_1", true);
 		}
 
 
