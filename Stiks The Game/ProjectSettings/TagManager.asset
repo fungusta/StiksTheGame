@@ -8,6 +8,7 @@ TagManager:
   - Coin
   - NextSection
   - NextScene
+  - Enemies
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Water
   - UI
   - Enemies
-  - 
+  - player
   - 
   - 
   - 

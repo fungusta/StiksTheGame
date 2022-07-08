@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 765341397}
   m_Layer: 6
   m_Name: Test Gunman
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,6 +258,8 @@ MonoBehaviour:
   animator: {fileID: 765341397}
   maxHealth: 100
   currentHealth: 0
+  expGiven: 0
+  playerLevel: {fileID: 0}
 --- !u!95 &765341397
 Animator:
   serializedVersion: 4
