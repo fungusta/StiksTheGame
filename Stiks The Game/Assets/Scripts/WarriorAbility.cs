@@ -21,9 +21,12 @@ public class WarriorAbility : MonoBehaviour
     public float firstSkillCooldown;
     public bool firstActive;
     public bool firstCooldown;
-    
+
     //Animator for first Skill
-    //public Animator animateFirstSkill;
+    public Animator firstSkillAnimator;
+
+    //SoundFX for first Skill
+    public AudioSource firstSkillSoundFX;
 
     //Collider for burn
     public Transform playerPos;
@@ -44,8 +47,6 @@ public class WarriorAbility : MonoBehaviour
     public bool secondActive;
     public bool secondCooldown;
     public float reflectRange;
-
-    public Animator animator;
 
 
     private void Start()
@@ -99,6 +100,8 @@ public class WarriorAbility : MonoBehaviour
     {
         if (!firstCooldown)
         {
+            firstSkillAnimator.SetBool("Skill_1", true);
+            firstSkillSoundFX.Play();
             player.runSpeed += firstSkillSpeedBoost;
             firstActive = true;
             firstCooldown = true;
@@ -113,7 +116,7 @@ public class WarriorAbility : MonoBehaviour
         //First Skill Over
         player.runSpeed -= firstSkillSpeedBoost;
         firstActive = false;
-        animator.SetBool("Skill_1", false);
+        firstSkillAnimator.SetBool("Skill_1", false);
 
 
         //after the skill ends, the cooldown will start
