@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &13935347 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4882486778011729441, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
-  m_PrefabInstance: {fileID: 206337508}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &29347279
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,6 +904,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2595010541820632864, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
+      propertyPath: m_Radius
+      value: 1.0270265
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595010541820632864, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.19152673
+      objectReference: {fileID: 0}
     - target: {fileID: 2595010541820632866, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
       propertyPath: player
       value: 
@@ -4586,7 +4589,7 @@ MonoBehaviour:
   - {fileID: 824725492}
   - {fileID: 699922703}
   enemies:
-  - {fileID: 13935347}
+  - {fileID: 1288387878}
   minTimeBtwSpawns: 1
   maxTimeBtwSpawns: 3
   canSpawn: 1
@@ -4645,6 +4648,11 @@ Transform:
   m_Father: {fileID: 1484249720}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1288387878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4882486778011729441, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
+  m_PrefabInstance: {fileID: 2000677375}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1404152336 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6704563206120738054, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
@@ -5844,6 +5852,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2595010541820632866, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1404152348}
     - target: {fileID: 4882486778011729441, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
       propertyPath: m_Name
       value: Test Gunman (1)
