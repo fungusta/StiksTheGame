@@ -5574,7 +5574,7 @@ GameObject:
   - component: {fileID: 8766087901900628484}
   - component: {fileID: 8766087901900628491}
   - component: {fileID: 6704563206120738054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Warrior
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -5653,7 +5653,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!50 &8766087901900628540
 Rigidbody2D:
   serializedVersion: 4
@@ -5707,7 +5707,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sections:
   - {fileID: 0}
-  - {fileID: 0}
 --- !u!95 &8766087901900628481
 Animator:
   serializedVersion: 4
@@ -5746,7 +5745,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 127
   m_GroundCheck: {fileID: 8766087902914310839}
   m_CeilingCheck: {fileID: 8766087902378421370}
   m_CrouchDisableCollider: {fileID: 8766087901900628491}
