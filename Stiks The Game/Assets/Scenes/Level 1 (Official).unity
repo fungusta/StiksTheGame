@@ -1443,19 +1443,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1586901995969587273, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1586901995969587273, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2260787725832180741, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2260787725832180741, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8766087901900628482, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
       propertyPath: sections.Array.size
@@ -1464,6 +1464,10 @@ PrefabInstance:
     - target: {fileID: 8766087901900628490, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
       propertyPath: m_Name
       value: Warrior
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766087901900628490, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8766087901900628542, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
       propertyPath: m_RootOrder
@@ -1511,22 +1515,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
---- !u!114 &853542436 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6704563206120738054, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
-  m_PrefabInstance: {fileID: 853542435}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d06cf0fe5f23a6b44bdd06f017b655f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &853542437 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8766087901900628542, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
-  m_PrefabInstance: {fileID: 853542435}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &988592164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1715,14 +1703,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2595010541820632866, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 853542437}
-    - target: {fileID: 4115425943079598318, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
-      propertyPath: playerLevel
-      value: 
-      objectReference: {fileID: 853542436}
     - target: {fileID: 4882486778011729441, guid: bbcee6229b0bdd94b9fa8c18d298dc24, type: 3}
       propertyPath: m_Name
       value: Test Gunman

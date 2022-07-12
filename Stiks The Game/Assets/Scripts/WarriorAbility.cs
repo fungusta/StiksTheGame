@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WarriorAbility : MonoBehaviour
 {
+    //Player variables
     public ImprovedPlayerController player;
     public PlayerHealth health;
 
@@ -37,16 +38,20 @@ public class WarriorAbility : MonoBehaviour
     public int burnDamage;
 
     //Variables for second Skill
-
-    //Animator for first Skill
-    //public Animator animateSecondSkill;
-
     public float secondSkillDmgRed;
     public float secondSkillDuration;
     public float secondSkillCooldown;
     public bool secondActive;
     public bool secondCooldown;
     public float reflectRange;
+
+    //Animator for first Skill
+    //public Animator animateSecondSkill;
+
+    //SoundFX for second Skill
+    public AudioSource secondSkillSoundFX;
+
+    
 
 
     private void Start()
@@ -165,6 +170,7 @@ public class WarriorAbility : MonoBehaviour
             health.DamageReduction(secondSkillDmgRed);
             secondActive = true;
             secondCooldown = true;
+            secondSkillSoundFX.Play();
             StartCoroutine(SecondSkill(secondSkillDuration, secondSkillCooldown));
         }
     }
