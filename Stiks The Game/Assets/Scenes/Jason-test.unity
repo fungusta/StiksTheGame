@@ -4669,6 +4669,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8766087901900628542, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
   m_PrefabInstance: {fileID: 1408495163}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1404152355 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8766087901900628481, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
+  m_PrefabInstance: {fileID: 1408495163}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1408495163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4704,6 +4709,10 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -0.30325505
       objectReference: {fileID: 0}
+    - target: {fileID: 8766087901900628485, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
+      propertyPath: secondSkillAnimator
+      value: 
+      objectReference: {fileID: 1404152355}
     - target: {fileID: 8766087901900628490, guid: 46292cde4fdeaad499b4944a0a36d473, type: 3}
       propertyPath: m_Name
       value: Warrior
