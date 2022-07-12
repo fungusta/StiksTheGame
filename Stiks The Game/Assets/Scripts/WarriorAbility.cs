@@ -25,6 +25,7 @@ public class WarriorAbility : MonoBehaviour
 
     //Animator for first Skill
     public Animator firstSkillAnimator;
+    public Animator secondSkillAnimator;
 
     //SoundFX for first Skill
     public AudioSource firstSkillSoundFX;
@@ -167,6 +168,7 @@ public class WarriorAbility : MonoBehaviour
     {
         if(!secondCooldown)
         {
+            secondSkillAnimator.SetBool("Skill_2", true);
             health.DamageReduction(secondSkillDmgRed);
             secondActive = true;
             secondCooldown = true;

@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
 	public int maxHealth = 100;
 	public int currentHealth;
 	public int level = 3; 
+
   
 	public HealthBar healthBar;
 	public bool Rigidbody2D { get; private set; }
@@ -42,6 +43,7 @@ public class PlayerHealth : MonoBehaviour
 		
 		if (currentHealth <= 0)
 		{
+
 			Die();
 		}
 	}
@@ -76,6 +78,7 @@ public class PlayerHealth : MonoBehaviour
 
 	public void Die()
 	{
+		
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
