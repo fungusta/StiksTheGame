@@ -27,6 +27,7 @@ public class ImprovedPatrol : MonoBehaviour
     {
         mustPatrol = true;
         canShoot = true;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         
     }
     //enemies wont collide with each other

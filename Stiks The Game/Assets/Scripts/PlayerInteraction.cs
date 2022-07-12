@@ -13,25 +13,25 @@ public class PlayerInteraction : MonoBehaviour
     {
     
         //Player to proceed to next level if player collides with a trigger collider with the Finish tag
-        if (collision.tag == "Finish")
+        if (collision.CompareTag("Finish"))
         {
             //Load next level
             SceneManager.LoadScene("MainMenu");
         }
         //If player collide with a trigger collider with the NextScene, load next scene
-        if (collision.tag == "NextScene")
+        if (collision.CompareTag("NextScene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        if (collision.tag == "NextSection")
+        if (collision.CompareTag("NextSection"))
         {
             sections[currSection].SetActive(true);
             Destroy(collision.gameObject);
             currSection++;
         }
 
-        if (collision.tag == "Death")
+        if (collision.CompareTag("Death"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
