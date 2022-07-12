@@ -8,6 +8,7 @@ public class PauseUI : MonoBehaviour
     public GameObject pauseScreen;
     public GameObject pauseButton;
     public GameObject skillTreeUI;
+    public GameObject volumeScreen;
 
     public void OnClickPause()
     {
@@ -38,7 +39,14 @@ public class PauseUI : MonoBehaviour
 
     public void OnClickVolume()
     {
-        //TBD
+        volumeScreen.SetActive(true);
+        pauseScreen.SetActive(false);
+    }
+
+    public void OnClickExitVolume()
+    {
+        pauseScreen.SetActive(true);
+        volumeScreen.SetActive(false);      
     }
 
     public void OnClickHome()

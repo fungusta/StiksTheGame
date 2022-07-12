@@ -9,6 +9,7 @@ TagManager:
   - NextSection
   - NextScene
   - Enemies
+  - StartPoint
   layers:
   - Default
   - TransparentFX

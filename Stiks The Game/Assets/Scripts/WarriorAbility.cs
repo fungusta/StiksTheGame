@@ -25,6 +25,8 @@ public class WarriorAbility : MonoBehaviour
 
     //Animator for first Skill
     public Animator firstSkillAnimator;
+
+    //Animator for second Skill
     public Animator secondSkillAnimator;
 
     //SoundFX for first Skill
@@ -45,9 +47,6 @@ public class WarriorAbility : MonoBehaviour
     public bool secondActive;
     public bool secondCooldown;
     public float reflectRange;
-
-    //Animator for first Skill
-    //public Animator animateSecondSkill;
 
     //SoundFX for second Skill
     public AudioSource secondSkillSoundFX;
