@@ -1,0 +1,1454 @@
+fileFormatVersion: 2
+guid: 39a8b4b88768ee1409e3218f194898f8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4624
+        width: 321
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a76ef72367355448ca75e2ce1529a2
+      internalID: 1665560664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_1
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 4644
+        width: 307
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73a671d657a1d9439c140d5dc5dc67f
+      internalID: 878197376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_2
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 4637
+        width: 321
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e990d0e7082f54783be680d8f92083
+      internalID: -1339859444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_3
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 4624
+        width: 337
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7938e44534794d41a3771c795ff4e11
+      internalID: 2078931358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_4
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 4624
+        width: 209
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a621e0318ccd1468edfac585b07b17
+      internalID: 845392835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_5
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 4644
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f14ca2c94ae5bc4a8553732e2fc254d
+      internalID: 256803006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 4330
+        width: 209
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be96996f71c6ae44fadf42f8c9ca7c66
+      internalID: -423744169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_7
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 4317
+        width: 174
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f0f309b175d4346b67827e3253c647
+      internalID: -324303353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_8
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 4394
+        width: 210
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5bc49eb9d1aa84e82c2f5f5332eaaf
+      internalID: 1758302536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_9
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 4575
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc88f1e9a2120843bedb835c1f20db4
+      internalID: -1515788118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_10
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 4378
+        width: 210
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7339998510b57d240824745115a4b1ae
+      internalID: 753398539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_11
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 4309
+        width: 251
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175d7702ad4e1af4ea825e611e997b23
+      internalID: 1746471152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_12
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 4378
+        width: 189
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6191db731f55454daa4a799c40fb5b2
+      internalID: 1705632284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_13
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 4330
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee2a4a261a06d047be7c2313a4d4002
+      internalID: -918059668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 4008
+        width: 251
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70036abb213741429e21a90cc79f0e8
+      internalID: -158362329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_15
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 4008
+        width: 252
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70515f791ec73f84dbea5627504dcc7c
+      internalID: -1185433466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_16
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 4008
+        width: 252
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd306eda8cb4c642b264a0698242503
+      internalID: -1444306765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_17
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 4000
+        width: 252
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3626dadc99326284593647592194ae05
+      internalID: -1101807771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_18
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 3987
+        width: 251
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a250263e3391fe543ae27cc4622ea45c
+      internalID: 1526011584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_19
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 3987
+        width: 251
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4608d5c62575ca9438706d71a157fd6d
+      internalID: 2094129715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3678
+        width: 252
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d396252ee58bf459d880b09ae78c37
+      internalID: -848771771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3161
+        width: 300
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1631566b93a42a24fa7109b8a2a01cc8
+      internalID: -1725733819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_22
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3182
+        width: 299
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28145e88ab60104c81276211eb6d91c
+      internalID: 313615238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_23
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 3168
+        width: 299
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0ed983b0180fd4d8199729a188b4ef
+      internalID: 227896737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_24
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 3168
+        width: 301
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac37d439ab5bfc348839e1b4079b9eea
+      internalID: 2050644896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2783
+        width: 298
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ff77c0c01352d4bb9a68f44f545ad3
+      internalID: 861060103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_26
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2791
+        width: 355
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0f913d039313d4cad51f7f0f4b4a08
+      internalID: -1416273402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_27
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 2783
+        width: 370
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c72f9760ba1afb49aa461e0de5c264f
+      internalID: 521996372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_28
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 3097
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f738061f27b8b024d9e402a7451f1cf9
+      internalID: 1840741380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_29
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 3097
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e6b45dccb036c4f8329841858e3ceb
+      internalID: -1099091286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_30
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 2803
+        width: 392
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1d1e923313caf4899222c79b6ee26f
+      internalID: -1612263002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_31
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 3077
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e6357fb1421b249b327726f3c82b26
+      internalID: -61734460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_32
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 3085
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bdf4aa524533e43899ce4bb9877c54
+      internalID: -1483823650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_33
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 2796
+        width: 335
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a495ddd9c07a644af8566d5d2f79b9
+      internalID: 1602287212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_34
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 2796
+        width: 266
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fa62c93739b744db4e72b47f11f259
+      internalID: -678579289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_35
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2573
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff58621ec7ae68c42a643c09b8161d03
+      internalID: 534717030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_36
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2573
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c27c2f0d51ce34889225fe56622bd4
+      internalID: 859035936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_37
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2573
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27fc300006d13945a4f265e99013699
+      internalID: 1836872844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_38
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2573
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86b9b8c36062b84daf46e58b5724713
+      internalID: 549803287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_39
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2243
+        width: 363
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b10c50fff982bc46b28b15473d11940
+      internalID: 1911314594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_40
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 2236
+        width: 337
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a2fbbb9b2d951498b2962ad87664bb
+      internalID: 1397421692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_41
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2538
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79ea1e8853e29642bf61cb8208be0f9
+      internalID: 1953291324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_42
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 2525
+        width: 104
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a6923828d68b6498a7596ec42d1eff
+      internalID: -1110567631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_43
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 2369
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b59e8c9c2fa7346b482b4e63640b4b
+      internalID: -771498403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_44
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1886
+        width: 286
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe11180a56bdde439964fb11379201d
+      internalID: -69921131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_45
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1893
+        width: 286
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eafc6bcf79f564c802d2bb7c80c9de
+      internalID: -1993202674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_46
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1880
+        width: 286
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aca1683ff9a9b45b6cc807223a25f7
+      internalID: -193420612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_47
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1880
+        width: 286
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d6b784dc53c0e4480fa7ee1e24bc78
+      internalID: -699064019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_48
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1873
+        width: 286
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ec96f212d0b654dabdd3812e8df7c4
+      internalID: -1894219574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_49
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 1886
+        width: 287
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee302e9eede7af46ac4198f8cc343cd
+      internalID: -416309172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1515
+        width: 286
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9a93a1f83f4ed4e98540547296c217
+      internalID: 215064953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_51
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1510
+        width: 286
+        height: 266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21545ab5c3537c84f81d20557c43bb32
+      internalID: 1250840154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_52
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 1208
+        width: 286
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66c112c575fe634f88c6c883f14aac6
+      internalID: 1192238619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 899
+        width: 286
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cff99bd98c6064dbd55b183646caa0
+      internalID: -2133745173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_54
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 894
+        width: 435
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3f3e8e49aed7146bffec0f7fc377f3
+      internalID: 452710839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_55
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 886
+        width: 435
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9d116a5e760a34689cf51d5da46dde
+      internalID: -1814266103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_56
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 878
+        width: 363
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47738a9c54b80448a868001b9328881
+      internalID: 1009796173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_57
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 871
+        width: 355
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec2e51f277723d41aa6e32d8c6c9661
+      internalID: 160339339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_58
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 871
+        width: 358
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d7ff1487113634980749f7c8f038df
+      internalID: 118965585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_skill 2 running-2.png 1_59
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1553
+        width: 2723
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5948ef15b4394eb408117fcf34d42419
+      internalID: 1981601961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Warrior_skill 2 running-2.png 1_11: 1746471152
+      Warrior_skill 2 running-2.png 1_30: -1612263002
+      Warrior_skill 2 running-2.png 1_46: -193420612
+      Warrior_skill 2 running-2.png 1_59: 1981601961
+      Warrior_skill 2 running-2.png 1_22: 313615238
+      Warrior_skill 2 running-2.png 1_3: 2078931358
+      Warrior_skill 2 running-2.png 1_28: 1840741380
+      Warrior_skill 2 running-2.png 1_31: -61734460
+      Warrior_skill 2 running-2.png 1_48: -1894219574
+      Warrior_skill 2 running-2.png 1_6: -423744169
+      Warrior_skill 2 running-2.png 1_34: -678579289
+      Warrior_skill 2 running-2.png 1_29: -1099091286
+      Warrior_skill 2 running-2.png 1_1: 878197376
+      Warrior_skill 2 running-2.png 1_41: 1953291324
+      Warrior_skill 2 running-2.png 1_25: 861060103
+      Warrior_skill 2 running-2.png 1_40: 1397421692
+      Warrior_skill 2 running-2.png 1_50: 215064953
+      Warrior_skill 2 running-2.png 1_32: -1483823650
+      Warrior_skill 2 running-2.png 1_4: 845392835
+      Warrior_skill 2 running-2.png 1_14: -158362329
+      Warrior_skill 2 running-2.png 1_35: 534717030
+      Warrior_skill 2 running-2.png 1_9: -1515788118
+      Warrior_skill 2 running-2.png 1_36: 859035936
+      Warrior_skill 2 running-2.png 1_47: -699064019
+      Warrior_skill 2 running-2.png 1_51: 1250840154
+      Warrior_skill 2 running-2.png 1_18: 1526011584
+      Warrior_skill 2 running-2.png 1_21: -1725733819
+      Warrior_skill 2 running-2.png 1_37: 1836872844
+      Warrior_skill 2 running-2.png 1_38: 549803287
+      Warrior_skill 2 running-2.png 1_20: -848771771
+      Warrior_skill 2 running-2.png 1_56: 1009796173
+      Warrior_skill 2 running-2.png 1_52: 1192238619
+      Warrior_skill 2 running-2.png 1_10: 753398539
+      Warrior_skill 2 running-2.png 1_16: -1444306765
+      Warrior_skill 2 running-2.png 1_13: -918059668
+      Warrior_skill 2 running-2.png 1_49: -416309172
+      Warrior_skill 2 running-2.png 1_23: 227896737
+      Warrior_skill 2 running-2.png 1_44: -69921131
+      Warrior_skill 2 running-2.png 1_55: -1814266103
+      Warrior_skill 2 running-2.png 1_58: 118965585
+      Warrior_skill 2 running-2.png 1_17: -1101807771
+      Warrior_skill 2 running-2.png 1_33: 1602287212
+      Warrior_skill 2 running-2.png 1_39: 1911314594
+      Warrior_skill 2 running-2.png 1_5: 256803006
+      Warrior_skill 2 running-2.png 1_26: -1416273402
+      Warrior_skill 2 running-2.png 1_12: 1705632284
+      Warrior_skill 2 running-2.png 1_42: -1110567631
+      Warrior_skill 2 running-2.png 1_2: -1339859444
+      Warrior_skill 2 running-2.png 1_27: 521996372
+      Warrior_skill 2 running-2.png 1_57: 160339339
+      Warrior_skill 2 running-2.png 1_19: 2094129715
+      Warrior_skill 2 running-2.png 1_24: 2050644896
+      Warrior_skill 2 running-2.png 1_45: -1993202674
+      Warrior_skill 2 running-2.png 1_54: 452710839
+      Warrior_skill 2 running-2.png 1_53: -2133745173
+      Warrior_skill 2 running-2.png 1_8: 1758302536
+      Warrior_skill 2 running-2.png 1_15: -1185433466
+      Warrior_skill 2 running-2.png 1_0: 1665560664
+      Warrior_skill 2 running-2.png 1_43: -771498403
+      Warrior_skill 2 running-2.png 1_7: -324303353
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

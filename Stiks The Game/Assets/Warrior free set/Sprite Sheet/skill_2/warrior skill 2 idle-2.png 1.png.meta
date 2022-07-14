@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b20c19160fe0c96489ddc023969e7fb2
+guid: 59e72adc21ec56640816164754385871
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: warrior skill 2 idle-2.png_0
+      name: warrior skill 2 idle-2.png 1_0
       rect:
         serializedVersion: 2
         x: 73
@@ -124,20 +124,20 @@ TextureImporter:
         width: 287
         height: 322
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daa2577e4cb8a564799d606185b7cf13
-      internalID: 380838270
+      spriteID: cefda5318137fc345b6a85a33179da7f
+      internalID: -198185410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: warrior skill 2 idle-2.png_1
+      name: warrior skill 2 idle-2.png 1_1
       rect:
         serializedVersion: 2
         x: 556
@@ -145,20 +145,20 @@ TextureImporter:
         width: 287
         height: 322
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf2cb9ee21d441b489f97da0fc4bc8bd
-      internalID: 785009289
+      spriteID: 89570e9df4fadc44490bf66886c67f22
+      internalID: -1969960709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: warrior skill 2 idle-2.png_2
+      name: warrior skill 2 idle-2.png 1_2
       rect:
         serializedVersion: 2
         x: 1039
@@ -166,20 +166,20 @@ TextureImporter:
         width: 287
         height: 321
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d31b10df054c6a040abf3bfa2eea63d5
-      internalID: -1354419341
+      spriteID: 3961b91f3e2e4d940a61deefd9aac462
+      internalID: 860800201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: warrior skill 2 idle-2.png_3
+      name: warrior skill 2 idle-2.png 1_3
       rect:
         serializedVersion: 2
         x: 1522
@@ -187,20 +187,20 @@ TextureImporter:
         width: 287
         height: 322
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c822d59cad7c6bf4ba93400192a27bab
-      internalID: -1461985336
+      spriteID: e3c18c3f336d40241a04c4cc9934b8b4
+      internalID: -366241815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: warrior skill 2 idle-2.png_4
+      name: warrior skill 2 idle-2.png 1_4
       rect:
         serializedVersion: 2
         x: 2005
@@ -208,20 +208,20 @@ TextureImporter:
         width: 287
         height: 322
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7334bd30df4f2e04db363e90b86b5024
-      internalID: -969453908
+      spriteID: 98c362a5165649646b42f18283eeab58
+      internalID: -240490958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: warrior skill 2 idle-2.png_5
+      name: warrior skill 2 idle-2.png 1_5
       rect:
         serializedVersion: 2
         x: 2488
@@ -229,14 +229,119 @@ TextureImporter:
         width: 287
         height: 322
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc690cfb8d79fde4fad0d99ce331b123
-      internalID: -2024809650
+      spriteID: 9ffd7bc884f31c14c835e5514958a203
+      internalID: 637912021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior skill 2 idle-2.png 1_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3742
+        width: 238
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e078aa96ab1dc49498f2930c90e721c2
+      internalID: -102625640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior skill 2 idle-2.png 1_7
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3729
+        width: 238
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4eaf8dbca05721488000bc226f9b5a6
+      internalID: 994766266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior skill 2 idle-2.png 1_8
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 3721
+        width: 237
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9875c43fdbfa95449269a3e64793ab2
+      internalID: -490627743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior skill 2 idle-2.png 1_9
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 3729
+        width: 238
+        height: 209
+      alignment: 9
+      pivot: {x: 0.5, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10da1cd93f70c364587c453e484997a9
+      internalID: 162487171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior skill 2 idle-2.png 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3542
+        width: 1944
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed21c01627557c47a4595e41fdfdc13
+      internalID: 1589826970
       vertices: []
       indices: 
       edges: []
@@ -252,12 +357,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      warrior skill 2 idle-2.png_2: -1354419341
-      warrior skill 2 idle-2.png_0: 380838270
-      warrior skill 2 idle-2.png_5: -2024809650
-      warrior skill 2 idle-2.png_3: -1461985336
-      warrior skill 2 idle-2.png_1: 785009289
-      warrior skill 2 idle-2.png_4: -969453908
+      warrior skill 2 idle-2.png 1_2: 860800201
+      warrior skill 2 idle-2.png 1_7: 994766266
+      warrior skill 2 idle-2.png 1_9: 162487171
+      warrior skill 2 idle-2.png 1_0: -198185410
+      warrior skill 2 idle-2.png 1_3: -366241815
+      warrior skill 2 idle-2.png 1_6: -102625640
+      warrior skill 2 idle-2.png 1_10: 1589826970
+      warrior skill 2 idle-2.png 1_5: 637912021
+      warrior skill 2 idle-2.png 1_4: -240490958
+      warrior skill 2 idle-2.png 1_1: -1969960709
+      warrior skill 2 idle-2.png 1_8: -490627743
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
