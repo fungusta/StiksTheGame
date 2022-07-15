@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 4022231407636964610}
   - component: {fileID: 4022231407636964613}
   - component: {fileID: 8249608903459467871}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player (1)
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -232,10 +232,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d1738893a707241bcf201c0d9dbda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
   maxHealth: 100
   currentHealth: 100
+  level: 3
   healthBar: {fileID: 0}
+  damageReductionActive: 0
+  dmgReduction: 0
 --- !u!114 &4022231407636964621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,7 +250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93b4c891f0be452438015a7b30624b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
   sections:
   - {fileID: 0}
   - {fileID: 0}
@@ -338,6 +339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 4022231407636964608}
   animator: {fileID: 4022231407636964620}
+  abilities: {fileID: 0}
   runSpeed: 40
 --- !u!61 &4022231407636964610
 BoxCollider2D:
@@ -352,7 +354,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2099998, y: 0.16280055}
+  m_Offset: {x: -0.2099998, y: 0.09}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
