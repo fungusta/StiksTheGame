@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 4022231407636964610}
   - component: {fileID: 4022231407636964613}
   - component: {fileID: 8249608903459467871}
+  - component: {fileID: 1272859553}
   m_Layer: 7
   m_Name: Player (1)
   m_TagString: Player
@@ -198,7 +199,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!50 &4022231407636964616
 Rigidbody2D:
   serializedVersion: 4
@@ -214,8 +215,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
-  m_Material: {fileID: 0}
+  m_GravityScale: 3.5
+  m_Material: {fileID: 6200000, guid: fc4c6192771e9df4998936b7d65055fd, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -235,7 +236,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 100
   level: 3
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 3781995847000516019}
   damageReductionActive: 0
   dmgReduction: 0
 --- !u!114 &4022231407636964621
@@ -263,7 +264,7 @@ Animator:
   m_GameObject: {fileID: 4022231407636964623}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dcccbe4df3ede7847802d01ff2528354, type: 2}
+  m_Controller: {fileID: 9100000, guid: 73e93223edb50f6449cddf2de85f1930, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -285,16 +286,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc3c036da6bb3048b7e3a207d406bde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 800
+  m_JumpForce: 900
   m_CrouchSpeed: 0.4
   m_MovementSmoothing: 0.05
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 127
   m_GroundCheck: {fileID: 4022231407877298771}
   m_CeilingCheck: {fileID: 4022231408081692505}
-  m_CrouchDisableCollider: {fileID: 4022231407636964613}
+  m_CrouchDisableCollider: {fileID: 4022231407636964610}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -340,7 +341,7 @@ MonoBehaviour:
   controller: {fileID: 4022231407636964608}
   animator: {fileID: 4022231407636964620}
   abilities: {fileID: 0}
-  runSpeed: 40
+  runSpeed: 50
 --- !u!61 &4022231407636964610
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -354,18 +355,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2099998, y: 0.09}
+  m_Offset: {x: -0.21001089, y: 0.15000004}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.07, y: 1.43}
+    oldSize: {x: 1.1888889, y: 1.5888889}
     newSize: {x: 1.1, y: 1.15}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6836467, y: 1.115725}
+  m_Size: {x: 0.6295669, y: 1.12}
   m_EdgeRadius: 0
 --- !u!58 &4022231407636964613
 CircleCollider2D:
@@ -380,9 +381,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.21969238, y: -0.3099002}
+  m_Offset: {x: -0.21, y: -0.35494804}
   serializedVersion: 2
-  m_Radius: 0.38323125
+  m_Radius: 0.31768847
 --- !u!114 &8249608903459467871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +399,42 @@ MonoBehaviour:
   firePoint: {fileID: 8249608903138056683}
   bulletPrefab: {fileID: 8230398986425760547, guid: 47f61fe9f519595429161f2df2c7e164, type: 3}
   attackRate: 4
+  animator: {fileID: 4022231407636964620}
+--- !u!114 &1272859553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022231407636964623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32828ae8422b3174187b03a592bff7f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 4022231407636964611}
+  health: {fileID: 4022231407636964612}
+  firstSkillDuration: 5
+  firstSkillSpeedBoost: 20
+  firstSkillHealthRegen: 20
+  firstSkillCooldown: 5
+  firstActive: 0
+  firstCooldown: 0
+  firstSkillAnimator: {fileID: 4022231407636964620}
+  firstSkillSoundFX: {fileID: 0}
+  playerPos: {fileID: 4022231407636964614}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  burnRange: 0
+  burnDamage: 0
+  secondSkillDmgRed: 0
+  secondSkillDuration: 0
+  secondSkillCooldown: 0
+  secondActive: 0
+  secondCooldown: 0
+  reflectRange: 0
+  secondSkillSoundFX: {fileID: 0}
 --- !u!1 &4022231407877298770
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,3 +722,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7592584259967886148, guid: 798d52570b674664cb6a49f010789ce0, type: 3}
   m_PrefabInstance: {fileID: 6710959411842270964}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3781995847000516019 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7592584259967886151, guid: 798d52570b674664cb6a49f010789ce0, type: 3}
+  m_PrefabInstance: {fileID: 6710959411842270964}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9398362770feb4e44be4325623f181d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
