@@ -27,9 +27,9 @@ public class ImprovedPatrol : MonoBehaviour
     {
         mustPatrol = true;
         canShoot = true;
-        player = GameObject.FindGameObjectWithTag("Player").transform;
         
     }
+	
     //enemies wont collide with each other
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -41,7 +41,8 @@ public class ImprovedPatrol : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {    
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         if (mustPatrol)
         {
             Patrol();
