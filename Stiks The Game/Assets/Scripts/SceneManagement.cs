@@ -8,6 +8,7 @@ public class SceneManagement : MonoBehaviour
     public GameObject playerPrefab;
     public GameObject player;
     Vector3 startPoint;
+    public GameObject[] characterPrefabs;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,8 @@ public class SceneManagement : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         if (player == null)
         {
+            int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
+            playerPrefab = characterPrefabs[selectedCharacter];
             player = playerPrefab;
             Instantiate(player);
         } else
