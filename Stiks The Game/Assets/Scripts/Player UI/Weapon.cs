@@ -8,13 +8,15 @@ public class Weapon : MonoBehaviour
     public GameObject bulletPrefab;
     public float attackRate = 4f;
     float nextAttackTime = 0f;
+    public Animator animator;
 
     void Update()
     {
         if (Time.time >= nextAttackTime)
-        {
+        {    
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                animator.SetTrigger("Attack");
                 Shoot();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
