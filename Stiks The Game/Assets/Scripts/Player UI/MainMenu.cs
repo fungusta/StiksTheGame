@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    private void Start()
+    {
+        //just as a quick fix for dealing with issues when going back to main menu dont know why the preious scene is still loaded
+        Destroy(GameObject.FindGameObjectWithTag("Player"));
+    }
     public void PlayGame ()
     {
-        SceneManager.LoadScene("SaveMenu");
+        SceneManager.LoadScene("Select Character");
     }
 
     public void QuitGame ()

@@ -20,6 +20,9 @@ public class PlayerHealth : MonoBehaviour
 	//Reduction is in 0 to 1
 	public float dmgReduction;
 
+	public GameObject playerPrefab;
+	public Vector3 startPoint;
+
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -27,6 +30,7 @@ public class PlayerHealth : MonoBehaviour
 		healthBar.SetMaxHealth(maxHealth);
 		damageReductionActive = false;
 		dmgReduction = 0f;
+		Vector3 startPoint = GameObject.FindGameObjectWithTag("StartPoint").transform.position;
 	}	
 
 	public void TakeDamage(int damage)
@@ -78,8 +82,9 @@ public class PlayerHealth : MonoBehaviour
 
 	public void Die()
 	{
-		
-		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		Regen(maxHealth - currentHealth);
+		DontDestroyOnLoad(GameObject.FindGameObjectWithTag("Player"));
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	}
 
 

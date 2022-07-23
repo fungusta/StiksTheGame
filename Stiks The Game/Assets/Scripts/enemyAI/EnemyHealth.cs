@@ -14,11 +14,15 @@ public class EnemyHealth : MonoBehaviour
 
     void Start()
     {
-        playerLevel = GameObject.FindGameObjectWithTag("Player").GetComponent<LevelSystem>();
         currentHealth = maxHealth;
         expGiven = 5;
     }
 
+    void Update()
+    {    
+        playerLevel = GameObject.FindGameObjectWithTag("Player").GetComponent<LevelSystem>();
+    }
+    
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
