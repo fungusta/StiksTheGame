@@ -6881,8 +6881,7 @@ MonoBehaviour:
   level: 3
   healthBar: {fileID: 1586901996878136217}
   damageReductionActive: 0
-  dmgReduction: 20
-  playerPrefab: {fileID: 8766087901900628490}
+  dmgReduction: 0
   startPoint: {x: 0, y: 0, z: 0}
 --- !u!114 &8766087901900628482
 MonoBehaviour:

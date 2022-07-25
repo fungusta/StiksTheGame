@@ -6,11 +6,15 @@ using UnityEngine.UI;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public PlayerHealth player;
+    private PlayerHealth player;
     public GameObject[] sections;
     private int currSection = 0;
 
 
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
     
