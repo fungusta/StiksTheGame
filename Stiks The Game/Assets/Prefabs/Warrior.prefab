@@ -7037,7 +7037,7 @@ MonoBehaviour:
   burnRange: 0
   burnDamage: 0
   secondSkillDmgRed: 0
-  secondSkillDuration: 0
+  secondSkillDuration: 3
   secondSkillCooldown: 0
   secondActive: 0
   secondCooldown: 0

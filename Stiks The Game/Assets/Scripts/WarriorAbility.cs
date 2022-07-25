@@ -56,7 +56,7 @@ public class WarriorAbility : MonoBehaviour
 
     private void Start()
     {
-        firstSkillDuration = 5f;
+        firstSkillDuration = 3f;
         firstSkillSpeedBoost = 20f;
         firstSkillHealthRegen = 20;
         firstSkillCooldown = 5f;
@@ -65,7 +65,7 @@ public class WarriorAbility : MonoBehaviour
         burnRange = 4f;
         burnDamage = 10;
         secondSkillDmgRed = 0.5f;
-        secondSkillDuration = 5f;
+        secondSkillDuration = 0.5f;
         secondSkillCooldown = 5f;
         secondActive = false;
         secondCooldown = false;
