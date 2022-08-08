@@ -8,7 +8,7 @@ public class ImprovedPlayerController : MonoBehaviour
 
 	public CharacterController2D controller;
 	public Animator animator;
-	public WarriorAbility abilities;
+	public WarriorAbility abilities; //change to IAbilities after fixing coroutine issues
 
 	public float runSpeed;
 
@@ -42,7 +42,7 @@ public class ImprovedPlayerController : MonoBehaviour
 		//for first skill
 		if (Input.GetKeyDown(KeyCode.Z))
         {
-			abilities.FirstSkillStart();
+			abilities.FirstSkill();
 		}
 
 

@@ -1,14 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Author: Peter
+ * Date: 7 Aug 2022
+ * 
+ * Class that deals with the effects when skill tree icons become activated.
+ */
 public class SkillTreeEffects : MonoBehaviour
 {
+    /*
+     * Current player
+     */
     public GameObject player;
+
+    /*
+     * Health of current player
+     */
     private PlayerHealth health;
+
+    /*
+     * Abilities of character chosen (to be update to IAbilities when interface
+     * has been fully created)
+     */
     private WarriorAbility abilities;
+
+    /*
+     * Combat numbers of current player
+     */
     private PlayerCombat combat;
+
+    /*
+     * Warning sign that shows up if there is a lack of skill points
+     */
     public WarningSkillTree warning;
+
+    /*
+     * Current number of skill points available
+     */
     public int skillTreePts;
 
     private void Start()
@@ -19,7 +47,10 @@ public class SkillTreeEffects : MonoBehaviour
         skillTreePts = player.GetComponent<LevelSystem>().GetCurrentSkillPts();
     }
 
-
+    /*
+     * Function that effects the player depending on the name of the skill icon
+     */
+    //Will be updated to be more efficient with the use interfaces
     public void Effect(string name)
     {
         if (name == "Health I")
@@ -76,6 +107,10 @@ public class SkillTreeEffects : MonoBehaviour
         }
     }
 
+    /*
+     * Checks if there is enough points to activate a skill point,
+     * if yes, returns true, else false.
+     */
     public bool PointCheck()
     {
         if(skillTreePts > 0)
@@ -83,10 +118,14 @@ public class SkillTreeEffects : MonoBehaviour
             skillTreePts -= 1;
             return true;
         }
+        //If 0 skill points, activate the warning message
         warning.ShowWarning();
         return false;
     }
 
+    /*
+     * Function that increases current skill points depending on int param input
+     */
     public void IncreaseSkillPt(int skillPt)
     {
         skillTreePts += skillPt;

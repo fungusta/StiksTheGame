@@ -1,13 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
+/*
+ * Author: Peter
+ * Date: 7 Aug 2022
+ * 
+ * Class that deals with player interactions upon collision with other objects
+ * in the game.
+ */
 public class PlayerInteraction : MonoBehaviour
 {
+    /*
+     * Player Health
+     */
     private PlayerHealth player;
+
+    /*
+     * Sections of the game that we want to be unlocked upon interacting with
+     * certain points of the map.
+     */
     public GameObject[] sections;
+
+    /*
+     * Number of Sections
+     */
     private int currSection = 0;
 
 
@@ -15,10 +31,16 @@ public class PlayerInteraction : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
     }
+
+    /*
+     * Function that does certain things upon collision depending on the objects
+     * tag in Unity.
+     */
     private void OnTriggerEnter2D(Collider2D collision)
     {
     
-        //Player to proceed to next level if player collides with a trigger collider with the Finish tag
+        //Player to proceed to next level if player collides with a
+        //trigger collider with the Finish tag.
         if (collision.CompareTag("Finish"))
         {
             //Load next level
