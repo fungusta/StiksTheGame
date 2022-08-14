@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Author: Jason
+ * Date: 10 Aug 2022
+ * 
+ * Class that deals with the players attack damage as well 
+ * the player attack animations
+ */
+
 public class PlayerCombat : MonoBehaviour
 {
     public Animator animator;
@@ -9,15 +17,20 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
+    // range of attack
     public float attackRange = 0.5f;
+
+    // attack damage
     public int attackDamage = 40;
 
+    // rate of attack
     public float attackRate = 4f;
     float nextAttackTime = 0f;
 
 
     // Update is called once per frame
     void Update()
+        // Attack is adjusted according to the frame rate of the player's computer
     {   if(Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -29,6 +42,9 @@ public class PlayerCombat : MonoBehaviour
         
     }
 
+    /*
+	 * Function that calls for attack
+	 */
     void Attack()
     {
         // Attack Animation
@@ -46,6 +62,10 @@ public class PlayerCombat : MonoBehaviour
 
 
     }
+
+    /*
+	 * Function shows the attack radius of the player model
+	 */
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null) 

@@ -1,6 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+ * Author: Jason
+ * Date: 8 Aug 2022
+ * 
+ * Class that deals with destruction of bullets
+ */
 
 public class Bullet : MonoBehaviour
 
